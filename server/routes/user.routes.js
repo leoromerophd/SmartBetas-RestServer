@@ -5,12 +5,38 @@ const _ = require('underscore');
 const app = express();
 // # Import Schema Models #######################
 const User = require('../models/user.model');
-// #####################################################
-// #######  Definir las Rutas de la Aplicación #########
-// #####################################################
+const { verifyToken, verifyAdmin_Role } = require('../middlewares/auth')
+    // #####################################################
+    // #######  Definir las Rutas de la Aplicación #########
+    // #####################################################
+
+// Get All Users 
+
+app.get('/usuarios', verifyToken, (req, res) => {
+
+    let page = req.query.page || 0;
+    page = Number(page);
+    let limit = req.query.limit || 5
+    limit = Number(limit);
+    User.find({}, 'name email')
+        .skip(page)
+        .limit(limit)
+        .exec((err, usersDB) => {
+            if (err) {
+                return res.status(400).json({
+                    ok: false,
+                    err
+                });
+            }
+            res.json({
+                ok: true,
+                usersDB
+            });
+        });
+});
 
 // POST to Auth User by email and create a new user 
-app.post('/user', function(req, res) {
+app.post('/user', [verifyToken, verifyAdmin_Role], (req, res) => {
     // receives data from user POST
     let body = req.body;
     // Define user from Schema  
@@ -34,16 +60,16 @@ app.post('/user', function(req, res) {
             user: userDB
         })
     });
-})
+});
 
 // PUT to update user info 
-app.put('/user/:id', (req, res) => {
+app.put('/user/:id', [verifyToken, verifyAdmin_Role], (req, res) => {
     let id = req.params.id;
     // usa el paquete underscore _ para definir sólo los campos a modificar
     let body = _.pick(req.body, ['name', 'email', 'img', 'estado']);
     // Encuentra en la BBDD y manda nuevo valor (new:true a la respuesta)
     //  run validators corre las condiciones especificadas en el esquema
-    User.findByIdAndUpdate(id, body, { new: true, runValidators: true }, (err, userDB) => {
+    User.findByIdAndUpdate(id, body, { new: true }, (err, userDB) => {
         if (err) {
             return res.status(400).json({
                 ok: false,
@@ -57,7 +83,7 @@ app.put('/user/:id', (req, res) => {
     })
 });
 
-app.delete('/user/:id', (req, res) => {
+app.delete('/user/:id', [verifyToken, verifyAdmin_Role], (req, res) => {
     let id = req.params.id;
     let cambiaEstado = {
         estado: false

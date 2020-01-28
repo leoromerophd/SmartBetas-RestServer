@@ -3,7 +3,9 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const _ = require('underscore');
 const app = express();
-// # Import Schema Models #######################
+// ####### Import  Middlewares 
+const { verifyToken, verifyAdmin_Role } = require('../middlewares/auth')
+    // # Import Schema Models #######################
 const ETFinfo = require('../models/etfinfo.model');
 const ETFdetails = require('../models/etfdetails.model');
 const TodaysEarnings = require('../models/todaysearnings.model')
@@ -34,7 +36,7 @@ app.get('/etfinfo', function(req, res) {
 });
 
 // GET to Get ETF details data 
-app.get('/etfdetails', function(req, res) {
+app.get('/etfdetails', verifyToken, (req, res) => {
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 5
@@ -58,7 +60,7 @@ app.get('/etfdetails', function(req, res) {
 });
 
 // GET Todays Earnings data 
-app.get('/earningstoday', function(req, res) {
+app.get('/earningstoday', verifyToken, function(req, res) {
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 4
@@ -82,8 +84,8 @@ app.get('/earningstoday', function(req, res) {
 });
 
 
-// GET Todays Earnings data 
-app.get('/thechosen', function(req, res) {
+// GET The Chosen All Data 
+app.get('/thechosen', verifyToken, function(req, res) {
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 4
@@ -105,6 +107,7 @@ app.get('/thechosen', function(req, res) {
             });
         });
 });
+
 
 //  ### Exportar el app de Express ##############
 module.exports = app;

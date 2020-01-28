@@ -2,6 +2,11 @@
 const mongoose = require('mongoose');
 const uniqueValidator = require('mongoose-unique-validator');
 
+// #### Define admin Roles ########################
+let validRoles = {
+    values: ['ADMIN_ROLE', 'USER_ROLE'],
+    message: '{VALUE} is not a valid role'
+};
 // ### Create Model Schemas  #############################
 let Schema = mongoose.Schema;
 
@@ -24,6 +29,10 @@ let userSchema = new Schema({
         required: false
     },
     estado: {
+        type: String,
+        required: false
+    },
+    role: {
         type: String,
         required: false
     }

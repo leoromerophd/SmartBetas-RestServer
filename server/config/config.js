@@ -23,3 +23,15 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+// ################################
+//  Token Expiration 
+// ################################
+
+process.env.CADUCIDAD_TOKEN = '30d';
+
+// ################################
+//  Semilla de Autenticación 
+// ################################
+
+process.env.SEED = process.env.SEED || 'esta-es-la-semilla-de-desarrollo'
