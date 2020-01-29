@@ -36,6 +36,26 @@ let verifyAdmin_Role = (req, res, next) => {
 }
 
 // ====================================
+// Verify Img Tokens
+// ====================================
+
+let verifyTokenImg = (req, res, next) => {
+    let token = req.query.token;
+    jwt.verify(token, process.env.SEED, (err, decoded) => {
+        if (err) {
+            return res.status(401).json({
+                ok: false,
+                err: {
+                    mesage: 'no valid token provided'
+                }
+            });
+        }
+        req.user = decoded.user;
+        next();
+    });
+}
+
+// ====================================
 // Export App Modules 
 // ====================================
-module.exports = { verifyToken, verifyAdmin_Role }
+module.exports = { verifyToken, verifyAdmin_Role, verifyTokenImg }

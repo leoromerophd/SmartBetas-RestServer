@@ -3,6 +3,7 @@ require('./config/config');
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
+const path = require('path')
 const bodyParser = require('body-parser');
 // ###############################################
 // MiddleWares to receive data from User Payloads
@@ -10,8 +11,13 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }))
     // to parse application/json
 app.use(bodyParser.json());
+
 // App Routes #################################### 
 app.use(require('./routes/index'));
+
+// Habilitar la carpeta 'Public' #################
+app.use(express.static(path.resolve(__dirname, '../public')));
+
 // ########## Connenct to Database ################
 mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false },
     (err, res) => {

@@ -109,5 +109,29 @@ app.get('/thechosen', verifyToken, function(req, res) {
 });
 
 
+// Search Results ######### Hace falta definir los términos de búsqueda y utilizar
+// operadores de RXJS
+
+app.get('/results/search/:term', (req, res) => {
+
+    let term = req.params.term
+    let regex = new RegExp(term, 'i');
+
+    Thechosen.find({ stocks: { $elemMatch: { symbol: "ADSK" } } })
+        .exec((err, results) => {
+            if (err) {
+                return res.status(400).json({
+                    ok: false,
+                    err
+                });
+            }
+
+            res.json({
+                ok: true,
+                results
+            })
+        })
+});
+
 //  ### Exportar el app de Express ##############
 module.exports = app;

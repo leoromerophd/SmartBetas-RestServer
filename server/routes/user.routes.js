@@ -111,10 +111,7 @@ app.delete('/user/:id', [verifyToken, verifyAdmin_Role], (req, res) => {
     });
 });
 
-// Initial Route 
-app.get('/', function(req, res) {
-    res.json('This is the Rest-Server for  Smart-Beta app')
-})
+
 
 //  ### Exportar el app de Express ##############
 module.exports = app;
