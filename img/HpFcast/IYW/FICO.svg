@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"  standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+ viewBox="0 0 800 600"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+
+<title>Gnuplot</title>
+<desc>Produced by GNUPLOT 5.0 patchlevel 5 </desc>
+
+<g id="gnuplot_canvas">
+
+<rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+<defs>
+
+	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
+	<path id='gpPt0' stroke-width='0.222' stroke='currentColor' d='M-1,0 h2 M0,-1 v2'/>
+	<path id='gpPt1' stroke-width='0.222' stroke='currentColor' d='M-1,-1 L1,1 M1,-1 L-1,1'/>
+	<path id='gpPt2' stroke-width='0.222' stroke='currentColor' d='M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1'/>
+	<rect id='gpPt3' stroke-width='0.222' stroke='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<rect id='gpPt4' stroke-width='0.222' stroke='currentColor' fill='currentColor' x='-1' y='-1' width='2' height='2'/>
+	<circle id='gpPt5' stroke-width='0.222' stroke='currentColor' cx='0' cy='0' r='1'/>
+	<use xlink:href='#gpPt5' id='gpPt6' fill='currentColor' stroke='none'/>
+	<path id='gpPt7' stroke-width='0.222' stroke='currentColor' d='M0,-1.33 L-1.33,0.67 L1.33,0.67 z'/>
+	<use xlink:href='#gpPt7' id='gpPt8' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt7' id='gpPt9' stroke='currentColor' transform='rotate(180)'/>
+	<use xlink:href='#gpPt9' id='gpPt10' fill='currentColor' stroke='none'/>
+	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
+	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
+	<path id='gpPt13' stroke-width='0.222' stroke='currentColor' d='M0,1.330 L1.265,0.411 L0.782,-1.067 L-0.782,-1.076 L-1.265,0.411 z'/>
+	<use xlink:href='#gpPt13' id='gpPt14' fill='currentColor' stroke='none'/>
+	<filter id='textbox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
+	  <feFlood flood-color='#FFFFFF' flood-opacity='1' result='bgnd'/>
+	  <feComposite in='SourceGraphic' in2='bgnd' operator='atop'/>
+	</filter>
+	<filter id='greybox' filterUnits='objectBoundingBox' x='0' y='0' height='1' width='1'>
+	  <feFlood flood-color='lightgrey' flood-opacity='1' result='grey'/>
+	  <feComposite in='SourceGraphic' in2='grey' operator='atop'/>
+	</filter>
+</defs>
+<g fill="none" color="#FFFFFF" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,564.0 L700.3,564.0  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,564.0 L108.6,564.0  '/>	<g transform="translate(91.3,567.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 280</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,507.3 L700.3,507.3  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,507.3 L108.6,507.3  '/>	<g transform="translate(91.3,511.2)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 300</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,450.7 L700.3,450.7  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,450.7 L108.6,450.7  '/>	<g transform="translate(91.3,454.6)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 320</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,394.0 L700.3,394.0  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,394.0 L108.6,394.0  '/>	<g transform="translate(91.3,397.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 340</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,337.4 L700.3,337.4  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,337.4 L108.6,337.4  '/>	<g transform="translate(91.3,341.3)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 360</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,280.7 L700.3,280.7  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,280.7 L108.6,280.7  '/>	<g transform="translate(91.3,284.6)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 380</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,224.1 L700.3,224.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,224.1 L108.6,224.1  '/>	<g transform="translate(91.3,228.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 400</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,167.4 L107.9,167.4 M299.5,167.4 L700.3,167.4  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,167.4 L108.6,167.4  '/>	<g transform="translate(91.3,171.3)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 420</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,110.8 L107.9,110.8 M299.5,110.8 L700.3,110.8  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,110.8 L108.6,110.8  '/>	<g transform="translate(91.3,114.7)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 440</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M99.6,54.1 L700.3,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,54.1 L108.6,54.1  '/>	<g transform="translate(91.3,58.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" > 460</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M100.3,564.0 L100.3,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M100.3,564.0 L100.3,555.0 M100.3,54.1 L100.3,63.1  '/>	<g transform="translate(100.3,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2019-10-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M139.4,564.0 L139.4,559.5 M139.4,54.1 L139.4,58.6 M178.6,564.0 L178.6,559.5 M178.6,54.1 L178.6,58.6
+		 '/></g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M223.5,564.0 L223.5,189.1 M223.5,63.1 L223.5,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M223.5,564.0 L223.5,555.0 M223.5,54.1 L223.5,63.1  '/>	<g transform="translate(223.5,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2019-11-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M262.6,564.0 L262.6,559.5 M262.6,54.1 L262.6,58.6 M301.8,564.0 L301.8,559.5 M301.8,54.1 L301.8,58.6
+		 '/></g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M338.7,564.0 L338.7,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M338.7,564.0 L338.7,555.0 M338.7,54.1 L338.7,63.1  '/>	<g transform="translate(338.7,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2019-12-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M377.8,564.0 L377.8,559.5 M377.8,54.1 L377.8,58.6 M417.0,564.0 L417.0,559.5 M417.0,54.1 L417.0,58.6
+		 '/></g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M461.9,564.0 L461.9,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M461.9,564.0 L461.9,555.0 M461.9,54.1 L461.9,63.1  '/>	<g transform="translate(461.9,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2020-01-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M501.0,564.0 L501.0,559.5 M501.0,54.1 L501.0,58.6 M540.2,564.0 L540.2,559.5 M540.2,54.1 L540.2,58.6
+		 '/></g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M584.9,564.0 L584.9,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M584.9,564.0 L584.9,555.0 M584.9,54.1 L584.9,63.1  '/>	<g transform="translate(584.9,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2020-02-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M624.1,564.0 L624.1,559.5 M624.1,54.1 L624.1,58.6 M663.3,564.0 L663.3,559.5 M663.3,54.1 L663.3,58.6
+		 '/></g>
+<g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M696.4,564.0 L696.4,54.1  '/></g>
+<g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M696.4,564.0 L696.4,555.0 M696.4,54.1 L696.4,63.1  '/>	<g transform="translate(696.4,585.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >2020-03-01</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,564.0 L691.3,564.0  '/>	<g transform="translate(708.6,567.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 280</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,507.3 L691.3,507.3  '/>	<g transform="translate(708.6,511.2)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 300</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,450.7 L691.3,450.7  '/>	<g transform="translate(708.6,454.6)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 320</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,394.0 L691.3,394.0  '/>	<g transform="translate(708.6,397.9)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 340</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,337.4 L691.3,337.4  '/>	<g transform="translate(708.6,341.3)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 360</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,280.7 L691.3,280.7  '/>	<g transform="translate(708.6,284.6)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 380</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,224.1 L691.3,224.1  '/>	<g transform="translate(708.6,228.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 400</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,167.4 L691.3,167.4  '/>	<g transform="translate(708.6,171.3)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 420</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,110.8 L691.3,110.8  '/>	<g transform="translate(708.6,114.7)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 440</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M700.3,54.1 L691.3,54.1  '/>	<g transform="translate(708.6,58.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="start">
+		<text><tspan font-family="arial" > 460</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,54.1 L99.6,564.0 L700.3,564.0 L700.3,54.1 L99.6,54.1 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(399.9,31.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="middle">
+		<text><tspan font-family="arial" >FICO, Last Update: 2020-01-31</tspan></text>
+	</g>
+</g>
+	<g id="gnuplot_plot_1" ><title>Candles for FICO</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,76.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >Candles for FICO</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(  0,   0,   0)'  d='M249.0,76.6 L291.2,76.6 L291.2,67.6 L249.0,67.6 L249.0,76.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M99.6,510.9 L99.6,498.1 L99.6,491.4 M97.4,498.1 L101.8,498.1 L97.4,498.1 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '101.3,504.3 105.7,504.3 105.7,501.9 101.3,501.9 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M103.5,518.1 L103.5,504.3 M103.5,501.9 L103.5,500.9 M101.3,501.9 L105.7,501.9 L105.7,504.3 L101.3,504.3
+		L101.3,501.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M107.4,515.4 L107.4,502.7 M107.4,496.5 L107.4,494.0 M105.2,502.7 L109.6,502.7 L109.6,496.5 L105.2,496.5
+		L105.2,502.7 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M111.3,488.7 L111.3,487.1 M111.3,479.2 L111.3,477.3 M109.1,487.1 L113.5,487.1 L113.5,479.2 L109.1,479.2
+		L109.1,487.1 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M123.1,486.1 L123.1,484.6 M123.1,478.1 L123.1,473.0 M120.9,484.6 L125.3,484.6 L125.3,478.1 L120.9,478.1
+		L120.9,484.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '124.8,505.3 129.2,505.3 129.2,485.4 124.8,485.4 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M127.0,513.6 L127.0,505.3 M127.0,485.4 L127.0,484.9 M124.8,485.4 L129.2,485.4 L129.2,505.3 L124.8,505.3
+		L124.8,485.4 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M130.9,501.7 L130.9,496.7 M130.9,484.7 L130.9,480.0 M128.7,496.7 L133.1,496.7 L133.1,484.7 L128.7,484.7
+		L128.7,496.7 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '132.6,491.8 137.0,491.8 137.0,485.0 132.6,485.0 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M134.8,493.5 L134.8,491.8 M134.8,485.0 L134.8,484.0 M132.6,485.0 L137.0,485.0 L137.0,491.8 L132.6,491.8
+		L132.6,485.0 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M138.8,484.8 L138.8,481.9 M138.8,481.2 L138.8,470.9 M136.6,481.9 L141.0,481.9 L141.0,481.2 L136.6,481.2
+		L136.6,481.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M150.5,484.3 L150.5,483.2 M150.5,477.4 L150.5,472.1 M148.3,483.2 L152.7,483.2 L152.7,477.4 L148.3,477.4
+		L148.3,483.2 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M154.4,474.8 L154.4,470.5 M154.4,469.5 L154.4,463.5 M152.2,470.5 L156.6,470.5 L156.6,469.5 L152.2,469.5
+		L152.2,470.5 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '156.1,477.6 160.5,477.6 160.5,477.3 156.1,477.3 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M158.3,501.2 L158.3,477.6 M158.3,477.3 L158.3,476.1 M156.1,477.3 L160.5,477.3 L160.5,477.6 L156.1,477.6
+		L156.1,477.3 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '160.1,473.4 164.5,473.4 164.5,471.3 160.1,471.3 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M162.3,480.1 L162.3,473.4 M162.3,471.3 L162.3,467.5 M160.1,471.3 L164.5,471.3 L164.5,473.4 L160.1,473.4
+		L160.1,471.3 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '164.0,502.1 168.4,502.1 168.4,473.4 164.0,473.4 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M166.2,514.7 L166.2,502.1 M166.2,473.4 L166.2,472.9 M164.0,473.4 L168.4,473.4 L168.4,502.1 L164.0,502.1
+		L164.0,473.4 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '175.7,513.0 180.1,513.0 180.1,498.4 175.7,498.4 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M177.9,520.3 L177.9,513.0 M177.9,498.4 L177.9,495.6 M175.7,498.4 L180.1,498.4 L180.1,513.0 L175.7,513.0
+		L175.7,498.4 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '179.6,538.4 184.0,538.4 184.0,509.0 179.6,509.0 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M181.8,540.6 L181.8,538.4 M181.8,509.0 L181.8,503.9 M179.6,509.0 L184.0,509.0 L184.0,538.4 L179.6,538.4
+		L179.6,509.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '183.6,546.9 188.0,546.9 188.0,538.4 183.6,538.4 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M185.8,559.6 L185.8,546.9 M185.8,538.4 L185.8,527.7 M183.6,538.4 L188.0,538.4 L188.0,546.9 L183.6,546.9
+		L183.6,538.4 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M189.7,541.7 L189.7,535.5 M189.7,508.5 L189.7,502.9 M187.5,535.5 L191.9,535.5 L191.9,508.5 L187.5,508.5
+		L187.5,535.5 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M193.6,523.1 L193.6,515.3 M193.6,509.4 L193.6,507.4 M191.4,515.3 L195.8,515.3 L195.8,509.4 L191.4,509.4
+		L191.4,515.3 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M205.3,510.2 L205.3,502.2 M205.3,502.1 L205.3,497.5 M203.1,502.2 L207.5,502.2 L207.5,502.1 L203.1,502.1
+		L203.1,502.2 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '207.1,502.1 211.5,502.1 211.5,501.8 207.1,501.8 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M209.3,504.4 L209.3,502.1 M209.3,501.8 L209.3,488.4 M207.1,501.8 L211.5,501.8 L211.5,502.1 L207.1,502.1
+		L207.1,501.8 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '211.0,501.0 215.4,501.0 215.4,499.2 211.0,499.2 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M213.2,520.5 L213.2,501.0 M213.2,499.2 M211.0,499.2 L215.4,499.2 L215.4,501.0 L211.0,501.0 L211.0,499.2
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M217.1,511.0 L217.1,499.0 M217.1,495.9 L217.1,492.0 M214.9,499.0 L219.3,499.0 L219.3,495.9 L214.9,495.9
+		L214.9,499.0 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M221.0,491.7 L221.0,489.4 M221.0,481.5 L221.0,478.3 M218.8,489.4 L223.2,489.4 L223.2,481.5 L218.8,481.5
+		L218.8,489.4 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '230.6,505.0 235.0,505.0 235.0,478.9 230.6,478.9 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M232.8,511.2 L232.8,505.0 M232.8,478.9 L232.8,475.8 M230.6,478.9 L235.0,478.9 L235.0,505.0 L230.6,505.0
+		L230.6,478.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M236.7,451.7 M236.7,418.5 L236.7,397.3 M234.5,451.7 L238.9,451.7 L238.9,418.5 L234.5,418.5 L234.5,451.7
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M240.6,448.3 L240.6,424.2 M240.6,422.6 L240.6,413.6 M238.4,424.2 L242.8,424.2 L242.8,422.6 L238.4,422.6
+		L238.4,424.2 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '242.3,425.8 246.7,425.8 246.7,419.6 242.3,419.6 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M244.5,430.2 L244.5,425.8 M244.5,419.6 L244.5,405.5 M242.3,419.6 L246.7,419.6 L246.7,425.8 L242.3,425.8
+		L242.3,419.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M248.4,443.0 L248.4,429.8 M248.4,417.9 L248.4,415.7 M246.2,429.8 L250.6,429.8 L250.6,417.9 L246.2,417.9
+		L246.2,429.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M260.2,430.5 L260.2,425.0 M260.2,405.1 L260.2,395.9 M258.0,425.0 L262.4,425.0 L262.4,405.1 L258.0,405.1
+		L258.0,425.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '261.9,409.8 266.3,409.8 266.3,409.7 261.9,409.7 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M264.1,424.6 L264.1,409.8 M264.1,409.7 L264.1,403.5 M261.9,409.7 L266.3,409.7 L266.3,409.8 L261.9,409.8
+		L261.9,409.7 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M268.0,422.7 M268.0,399.6 L268.0,393.4 M265.8,422.7 L270.2,422.7 L270.2,399.6 L265.8,399.6 L265.8,422.7
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M271.9,408.1 L271.9,402.4 M271.9,386.0 L271.9,382.7 M269.7,402.4 L274.1,402.4 L274.1,386.0 L269.7,386.0
+		L269.7,402.4 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M275.8,389.4 L275.8,381.6 M275.8,371.1 L275.8,369.6 M273.6,381.6 L278.0,381.6 L278.0,371.1 L273.6,371.1
+		L273.6,381.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M287.6,374.1 L287.6,372.6 M287.6,353.7 L287.6,348.4 M285.4,372.6 L289.8,372.6 L289.8,353.7 L285.4,353.7
+		L285.4,372.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M291.5,354.9 L291.5,350.0 M291.5,345.9 L291.5,339.4 M289.3,350.0 L293.7,350.0 L293.7,345.9 L289.3,345.9
+		L289.3,350.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '293.2,349.8 297.6,349.8 297.6,345.2 293.2,345.2 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M295.4,356.9 L295.4,349.8 M295.4,345.2 L295.4,333.5 M293.2,345.2 L297.6,345.2 L297.6,349.8 L293.2,349.8
+		L293.2,345.2 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '297.1,350.5 301.5,350.5 301.5,345.5 297.1,345.5 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M299.3,354.9 L299.3,350.5 M299.3,345.5 L299.3,335.2 M297.1,345.5 L301.5,345.5 L301.5,350.5 L297.1,350.5
+		L297.1,345.5 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '301.1,349.6 305.5,349.6 305.5,347.8 301.1,347.8 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M303.3,358.8 L303.3,349.6 M303.3,347.8 L303.3,338.0 M301.1,347.8 L305.5,347.8 L305.5,349.6 L301.1,349.6
+		L301.1,347.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M315.0,343.4 L315.0,340.2 M315.0,322.3 L315.0,321.3 M312.8,340.2 L317.2,340.2 L317.2,322.3 L312.8,322.3
+		L312.8,340.2 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M318.9,321.1 M318.9,311.9 L318.9,310.0 M316.7,321.1 L321.1,321.1 L321.1,311.9 L316.7,311.9 L316.7,321.1
+		Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '320.6,311.1 325.0,311.1 325.0,309.0 320.6,309.0 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M322.8,317.4 L322.8,311.1 M322.8,309.0 L322.8,307.5 M320.6,309.0 L325.0,309.0 L325.0,311.1 L320.6,311.1
+		L320.6,309.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '328.5,315.4 332.9,315.4 332.9,314.2 328.5,314.2 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M330.7,321.5 L330.7,315.4 M330.7,314.2 L330.7,308.2 M328.5,314.2 L332.9,314.2 L332.9,315.4 L328.5,315.4
+		L328.5,314.2 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '340.2,337.6 344.6,337.6 344.6,314.8 340.2,314.8 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M342.4,346.0 L342.4,337.6 M342.4,314.8 M340.2,314.8 L344.6,314.8 L344.6,337.6 L340.2,337.6 L340.2,314.8
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M346.3,357.4 L346.3,351.3 M346.3,343.8 L346.3,337.3 M344.1,351.3 L348.5,351.3 L348.5,343.8 L344.1,343.8
+		L344.1,351.3 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M350.3,343.7 M350.3,332.0 L350.3,326.6 M348.1,343.7 L352.5,343.7 L352.5,332.0 L348.1,332.0 L348.1,343.7
+		Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '352.0,334.6 356.4,334.6 356.4,324.6 352.0,324.6 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M354.2,339.6 L354.2,334.6 M354.2,324.6 L354.2,319.4 M352.0,324.6 L356.4,324.6 L356.4,334.6 L352.0,334.6
+		L352.0,324.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M358.1,328.4 L358.1,327.2 M358.1,326.5 L358.1,318.5 M355.9,327.2 L360.3,327.2 L360.3,326.5 L355.9,326.5
+		L355.9,327.2 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '367.6,343.9 372.0,343.9 372.0,331.0 367.6,331.0 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M369.8,343.9 M369.8,331.0 L369.8,327.6 M367.6,331.0 L372.0,331.0 L372.0,343.9 L367.6,343.9 L367.6,331.0
+		Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '371.6,353.9 376.0,353.9 376.0,344.8 371.6,344.8 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M373.8,355.3 L373.8,353.9 M373.8,344.8 L373.8,340.0 M371.6,344.8 L376.0,344.8 L376.0,353.9 L371.6,353.9
+		L371.6,344.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M377.7,374.4 L377.7,356.6 M377.7,353.0 L377.7,349.2 M375.5,356.6 L379.9,356.6 L379.9,353.0 L375.5,353.0
+		L375.5,356.6 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M381.6,377.7 L381.6,358.4 M381.6,357.7 L381.6,350.2 M379.4,358.4 L383.8,358.4 L383.8,357.7 L379.4,357.7
+		L379.4,358.4 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M385.5,360.8 M385.5,346.2 L385.5,345.1 M383.3,360.8 L387.7,360.8 L387.7,346.2 L383.3,346.2 L383.3,360.8
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M397.3,345.3 L397.3,344.9 M397.3,330.9 L397.3,321.3 M395.1,344.9 L399.5,344.9 L399.5,330.9 L395.1,330.9
+		L395.1,344.9 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '399.0,325.7 403.4,325.7 403.4,325.3 399.0,325.3 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M401.2,337.0 L401.2,325.7 M401.2,325.3 L401.2,322.1 M399.0,325.3 L403.4,325.3 L403.4,325.7 L399.0,325.7
+		L399.0,325.3 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M405.1,328.8 L405.1,326.8 M405.1,321.0 L405.1,318.0 M402.9,326.8 L407.3,326.8 L407.3,321.0 L402.9,321.0
+		L402.9,326.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M409.0,327.6 L409.0,322.3 M409.0,314.1 L409.0,305.5 M406.8,322.3 L411.2,322.3 L411.2,314.1 L406.8,314.1
+		L406.8,322.3 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M412.9,311.9 L412.9,311.8 M412.9,299.0 L412.9,297.6 M410.7,311.8 L415.1,311.8 L415.1,299.0 L410.7,299.0
+		L410.7,311.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M424.7,303.3 L424.7,299.0 M424.7,291.9 L424.7,288.3 M422.5,299.0 L426.9,299.0 L426.9,291.9 L422.5,291.9
+		L422.5,299.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '426.4,292.9 430.8,292.9 430.8,290.9 426.4,290.9 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M428.6,296.1 L428.6,292.9 M428.6,290.9 L428.6,288.4 M426.4,290.9 L430.8,290.9 L430.8,292.9 L426.4,292.9
+		L426.4,290.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M436.4,294.6 L436.4,290.6 M436.4,282.6 L436.4,281.1 M434.2,290.6 L438.6,290.6 L438.6,282.6 L434.2,282.6
+		L434.2,290.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '438.1,284.1 442.5,284.1 442.5,280.7 438.1,280.7 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M440.3,291.6 L440.3,284.1 M440.3,280.7 L440.3,279.3 M438.1,280.7 L442.5,280.7 L442.5,284.1 L438.1,284.1
+		L438.1,280.7 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '449.9,296.5 454.3,296.5 454.3,285.8 449.9,285.8 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M452.1,303.3 L452.1,296.5 M452.1,285.8 L452.1,285.2 M449.9,285.8 L454.3,285.8 L454.3,296.5 L449.9,296.5
+		L449.9,285.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M456.0,303.7 L456.0,299.5 M456.0,295.8 L456.0,291.3 M453.8,299.5 L458.2,299.5 L458.2,295.8 L453.8,295.8
+		L453.8,299.5 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M463.8,294.2 L463.8,289.2 M463.8,272.5 L463.8,271.7 M461.6,289.2 L466.0,289.2 L466.0,272.5 L461.6,272.5
+		L461.6,289.2 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M467.8,284.5 M467.8,275.3 L467.8,271.1 M465.6,284.5 L470.0,284.5 L470.0,275.3 L465.6,275.3 L465.6,284.5
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M479.5,286.5 M479.5,269.4 M477.3,286.5 L481.7,286.5 L481.7,269.4 L477.3,269.4 L477.3,286.5 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M483.4,275.1 L483.4,272.2 M483.4,256.7 L483.4,252.4 M481.2,272.2 L485.6,272.2 L485.6,256.7 L481.2,256.7
+		L481.2,272.2 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M487.3,254.8 L487.3,248.9 M487.3,248.6 L487.3,236.8 M485.1,248.9 L489.5,248.9 L489.5,248.6 L485.1,248.6
+		L485.1,248.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M491.3,238.5 L491.3,235.4 M491.3,219.8 L491.3,209.9 M489.1,235.4 L493.5,235.4 L493.5,219.8 L489.1,219.8
+		L489.1,235.4 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '493.0,212.7 497.4,212.7 497.4,211.5 493.0,211.5 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M495.2,218.3 L495.2,212.7 M495.2,211.5 L495.2,201.4 M493.0,211.5 L497.4,211.5 L497.4,212.7 L493.0,212.7
+		L493.0,211.5 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M506.9,209.8 M506.9,198.8 L506.9,194.5 M504.7,209.8 L509.1,209.8 L509.1,198.8 L504.7,198.8 L504.7,209.8
+		Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '508.6,216.2 513.0,216.2 513.0,201.6 508.6,201.6 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M510.8,223.8 L510.8,216.2 M510.8,201.6 L510.8,199.1 M508.6,201.6 L513.0,201.6 L513.0,216.2 L508.6,216.2
+		L508.6,201.6 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '512.6,213.1 517.0,213.1 517.0,212.1 512.6,212.1 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M514.8,217.9 L514.8,213.1 M514.8,212.1 L514.8,202.6 M512.6,212.1 L517.0,212.1 L517.0,213.1 L512.6,213.1
+		L512.6,212.1 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M518.7,214.9 L518.7,204.4 M518.7,201.9 L518.7,199.3 M516.5,204.4 L520.9,204.4 L520.9,201.9 L516.5,201.9
+		L516.5,204.4 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '520.4,210.0 524.8,210.0 524.8,199.9 520.4,199.9 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M522.6,217.8 L522.6,210.0 M522.6,199.9 M520.4,199.9 L524.8,199.9 L524.8,210.0 L520.4,210.0 L520.4,199.9
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M538.3,215.7 M538.3,202.7 L538.3,193.7 M536.1,215.7 L540.5,215.7 L540.5,202.7 L536.1,202.7 L536.1,215.7
+		Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M542.2,201.1 L542.2,193.8 M542.2,193.0 L542.2,186.5 M540.0,193.8 L544.4,193.8 L544.4,193.0 L540.0,193.0
+		L540.0,193.8 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M546.1,198.0 L546.1,194.0 M546.1,181.3 L546.1,172.8 M543.9,194.0 L548.3,194.0 L548.3,181.3 L543.9,181.3
+		L543.9,194.0 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '547.8,197.7 552.2,197.7 552.2,174.0 547.8,174.0 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M550.0,203.9 L550.0,197.7 M550.0,174.0 L550.0,166.8 M547.8,174.0 L552.2,174.0 L552.2,197.7 L547.8,197.7
+		L547.8,174.0 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M561.8,224.0 L561.8,222.3 M561.8,213.4 L561.8,206.0 M559.6,222.3 L564.0,222.3 L564.0,213.4 L559.6,213.4
+		L559.6,222.3 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M565.7,217.6 L565.7,210.8 M565.7,198.7 L565.7,192.8 M563.5,210.8 L567.9,210.8 L567.9,198.7 L563.5,198.7
+		L563.5,210.8 Z  '/>	<g stroke='none' shape-rendering='crispEdges'>
+		<polygon fill = 'rgb(  0,   0,   0)' points = '567.4,197.6 571.8,197.6 571.8,193.9 567.4,193.9 '/>
+	</g>
+	<path stroke='rgb(  0,   0,   0)'  d='M569.6,199.3 L569.6,197.6 M569.6,193.9 L569.6,184.8 M567.4,193.9 L571.8,193.9 L571.8,197.6 L567.4,197.6
+		L567.4,193.9 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M573.5,212.9 L573.5,207.5 M573.5,196.1 L573.5,191.9 M571.3,207.5 L575.7,207.5 L575.7,196.1 L571.3,196.1
+		L571.3,207.5 Z  '/>	<path stroke='rgb(  0,   0,   0)'  d='M577.4,251.3 L577.4,230.9 M577.4,202.4 L577.4,198.9 M575.2,230.9 L579.6,230.9 L579.6,202.4 L575.2,202.4
+		L575.2,230.9 Z  '/></g>
+	</g>
+	<g id="gnuplot_plot_2" ><title>MA-20</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,94.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >MA-20</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(106, 153, 189)'  d='M249.0,90.1 L291.2,90.1 M99.6,444.2 L103.5,451.9 L107.4,460.5 L111.3,469.0 L123.1,474.5 L127.0,478.1
+		L130.9,478.9 L134.8,480.0 L138.8,480.0 L150.5,480.0 L154.4,480.8 L158.3,481.4 L162.3,482.7 L166.2,484.2
+		L177.9,486.8 L181.8,490.2 L185.8,494.1 L189.7,496.7 L193.6,496.6 L205.3,496.9 L209.3,497.1 L213.2,496.9
+		L217.1,496.9 L221.0,497.0 L232.8,498.3 L236.7,494.0 L240.6,490.9 L244.5,487.6 L248.4,484.4 L260.2,480.8
+		L264.1,477.8 L268.0,473.9 L271.9,469.6 L275.8,463.0 L287.6,455.0 L291.5,445.4 L295.4,435.6 L299.3,427.7
+		L303.3,419.7 L315.0,410.7 L318.9,401.2 L322.8,391.7 L330.7,382.7 L342.4,375.5 L346.3,367.4 L350.3,363.1
+		L354.2,358.7 L358.1,353.7 L369.8,350.0 L373.8,347.5 L377.7,344.6 L381.6,342.5 L385.5,340.5 L397.3,338.5
+		L401.2,337.1 L405.1,335.9 L409.0,334.1 L412.9,331.5 L424.7,328.6 L428.6,327.2 L436.4,325.7 L440.3,324.3
+		L452.1,323.4 L456.0,321.3 L463.8,317.7 L467.8,314.9 L479.5,311.6 L483.4,308.2 L487.3,303.4 L491.3,296.7
+		L495.2,289.7 L506.9,281.7 L510.8,275.2 L514.8,269.3 L518.7,263.1 L522.6,257.6 L538.3,252.0 L542.2,246.7
+		L546.1,241.2 L550.0,236.4 L561.8,233.0 L565.7,228.7 L569.6,223.8 L573.5,218.8 L577.4,215.3  '/></g>
+	</g>
+	<g id="gnuplot_plot_3" ><title>MA-50</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,112.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >MA-50</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 55, 104, 147)'  d='M249.0,108.1 L291.2,108.1 M99.6,398.8 L103.5,400.9 L107.4,403.2 L111.3,405.2 L123.1,407.6 L127.0,410.4
+		L130.9,412.8 L134.8,415.2 L138.8,418.0 L150.5,420.4 L154.4,421.8 L158.3,423.7 L162.3,425.9 L166.2,429.7
+		L177.9,433.5 L181.8,437.4 L185.8,440.3 L189.7,441.9 L193.6,444.2 L205.3,447.0 L209.3,449.4 L213.2,451.9
+		L217.1,454.5 L221.0,457.0 L232.8,459.6 L236.7,460.6 L240.6,462.0 L244.5,463.0 L248.4,464.2 L260.2,465.2
+		L264.1,466.2 L268.0,467.2 L271.9,468.4 L275.8,469.6 L287.6,469.3 L291.5,467.6 L295.4,465.2 L299.3,462.8
+		L303.3,460.2 L315.0,457.1 L318.9,454.3 L322.8,451.2 L330.7,448.5 L342.4,445.8 L346.3,443.5 L350.3,440.7
+		L354.2,438.1 L358.1,435.4 L369.8,432.1 L373.8,429.2 L377.7,426.3 L381.6,423.4 L385.5,420.4 L397.3,417.4
+		L401.2,414.4 L405.1,410.7 L409.0,407.3 L412.9,403.4 L424.7,399.6 L428.6,396.0 L436.4,392.2 L440.3,388.3
+		L452.1,384.8 L456.0,380.7 L463.8,375.9 L467.8,370.6 L479.5,365.1 L483.4,360.0 L487.3,354.8 L491.3,349.2
+		L495.2,343.4 L506.9,337.3 L510.8,331.7 L514.8,326.4 L518.7,320.3 L522.6,316.1 L538.3,311.7 L542.2,307.1
+		L546.1,302.4 L550.0,298.2 L561.8,294.3 L565.7,290.3 L569.6,286.5 L573.5,283.0 L577.4,280.0  '/></g>
+	</g>
+	<g id="gnuplot_plot_4" ><title>MA-200</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,130.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >MA-200</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 38,  58,  80)'  d='M249.0,126.1 L291.2,126.1 M99.6,555.6 L103.5,554.0 L107.4,552.2 L111.3,550.5 L123.1,548.8 L127.0,547.1
+		L130.9,545.2 L134.8,543.3 L138.8,541.5 L150.5,539.7 L154.4,537.9 L158.3,536.1 L162.3,534.3 L166.2,532.6
+		L177.9,531.1 L181.8,529.7 L185.8,528.4 L189.7,527.0 L193.6,525.7 L205.3,524.3 L209.3,522.9 L213.2,521.6
+		L217.1,520.3 L221.0,518.9 L232.8,517.7 L236.7,516.0 L240.6,514.4 L244.5,512.8 L248.4,511.2 L260.2,509.5
+		L264.1,507.8 L268.0,506.1 L271.9,504.4 L275.8,502.7 L287.6,501.0 L291.5,499.2 L295.4,497.4 L299.3,495.7
+		L303.3,494.0 L315.0,492.2 L318.9,490.3 L322.8,488.5 L330.7,486.7 L342.4,485.0 L346.3,483.4 L350.3,481.8
+		L354.2,480.1 L358.1,478.5 L369.8,476.9 L373.8,475.4 L377.7,473.9 L381.6,472.4 L385.5,470.9 L397.3,469.3
+		L401.2,467.7 L405.1,466.0 L409.0,464.2 L412.9,462.4 L424.7,460.7 L428.6,459.0 L436.4,457.3 L440.3,455.6
+		L452.1,454.0 L456.0,452.5 L463.8,450.8 L467.8,449.1 L479.5,447.5 L483.4,445.7 L487.3,443.9 L491.3,442.0
+		L495.2,440.0 L506.9,437.9 L510.8,436.1 L514.8,434.2 L518.7,432.4 L522.6,430.5 L538.3,428.6 L542.2,426.6
+		L546.1,424.7 L550.0,422.8 L561.8,421.0 L565.7,419.1 L569.6,417.3 L573.5,415.4 L577.4,413.7  '/></g>
+	</g>
+	<g id="gnuplot_plot_5" ><title>Regressor</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,148.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >Regressor</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 28,  34,  46)'  d='M249.0,144.1 L291.2,144.1 M99.6,496.7 L103.5,496.9 L107.4,494.8 L111.3,491.9 L123.1,490.0 L127.0,489.0
+		L130.9,486.8 L134.8,483.9 L138.8,480.5 L150.5,478.0 L154.4,478.0 L158.3,481.8 L162.3,489.7 L166.2,500.9
+		L177.9,512.3 L181.8,520.9 L185.8,523.8 L189.7,520.9 L193.6,516.0 L205.3,510.5 L209.3,505.2 L213.2,499.3
+		L217.1,491.5 L221.0,480.8 L232.8,467.1 L236.7,450.1 L240.6,435.8 L244.5,425.0 L248.4,416.4 L260.2,408.9
+		L264.1,401.6 L268.0,393.0 L271.9,382.9 L275.8,372.1 L287.6,362.1 L291.5,354.1 L295.4,347.8 L299.3,341.8
+		L303.3,335.0 L315.0,327.7 L318.9,322.3 L322.8,320.6 L330.7,322.7 L342.4,327.0 L346.3,331.1 L350.3,333.9
+		L354.2,336.6 L358.1,339.9 L369.8,344.4 L373.8,348.3 L377.7,350.0 L381.6,348.6 L385.5,343.6 L397.3,336.2
+		L401.2,328.0 L405.1,319.4 L409.0,310.9 L412.9,302.9 L424.7,296.5 L428.6,292.3 L436.4,289.7 L440.3,288.8
+		L452.1,288.1 L456.0,285.5 L463.8,280.3 L467.8,273.4 L479.5,264.5 L483.4,253.5 L487.3,241.3 L491.3,228.9
+		L495.2,219.0 L506.9,212.4 L510.8,209.0 L514.8,206.8 L518.7,204.5 L522.6,202.3 L538.3,199.5 L542.2,197.0
+		L546.1,196.0 L550.0,197.3 L561.8,199.0 L565.7,199.5 L569.6,199.6 L573.5,199.7 L577.4,200.3  '/></g>
+	</g>
+	<g id="gnuplot_plot_6" ><title>Error 95% </title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,166.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >Error 95% </tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb( 28, 213, 219)'  d='M249.0,162.1 L291.2,162.1 M249.0,157.6 L249.0,166.6 M291.2,157.6 L291.2,166.6 M99.6,501.7 L99.6,511.4
+		M99.6,501.7 L104.1,501.7 M99.6,511.4 L104.1,511.4 M103.5,497.5 L103.5,507.2 M99.6,497.5 L108.0,497.5
+		M99.6,507.2 L108.0,507.2 M107.4,490.0 L107.4,499.7 M102.9,490.0 L111.9,490.0 M102.9,499.7 L111.9,499.7
+		M111.3,478.4 L111.3,488.1 M106.8,478.4 L115.8,478.4 M106.8,488.1 L115.8,488.1 M123.1,471.2 L123.1,480.9
+		M118.6,471.2 L127.6,471.2 M118.6,480.9 L127.6,480.9 M127.0,492.6 L127.0,502.2 M122.5,492.6 L131.5,492.6
+		M122.5,502.2 L131.5,502.2 M130.9,483.3 L130.9,493.0 M126.4,483.3 L135.4,483.3 M126.4,493.0 L135.4,493.0
+		M134.8,481.2 L134.8,490.8 M130.3,481.2 L139.3,481.2 M130.3,490.8 L139.3,490.8 M138.8,474.3 L138.8,484.0
+		M134.3,474.3 L143.3,474.3 M134.3,484.0 L143.3,484.0 M150.5,472.6 L150.5,482.2 M146.0,472.6 L155.0,472.6
+		M146.0,482.2 L155.0,482.2 M154.4,467.1 L154.4,476.8 M149.9,467.1 L158.9,467.1 M149.9,476.8 L158.9,476.8
+		M158.3,465.5 L158.3,475.2 M153.8,465.5 L162.8,465.5 M153.8,475.2 L162.8,475.2 M162.3,474.2 L162.3,483.8
+		M157.8,474.2 L166.8,474.2 M157.8,483.8 L166.8,483.8 M166.2,496.1 L166.2,505.7 M161.7,496.1 L170.7,496.1
+		M161.7,505.7 L170.7,505.7 M177.9,516.9 L177.9,526.5 M173.4,516.9 L182.4,516.9 M173.4,526.5 L182.4,526.5
+		M181.8,531.2 L181.8,540.9 M177.3,531.2 L186.3,531.2 M177.3,540.9 L186.3,540.9 M185.8,534.5 L185.8,544.2
+		M181.3,534.5 L190.3,534.5 M181.3,544.2 L190.3,544.2 M189.7,514.1 L189.7,523.8 M185.2,514.1 L194.2,514.1
+		M185.2,523.8 L194.2,523.8 M193.6,505.8 L193.6,515.5 M189.1,505.8 L198.1,505.8 M189.1,515.5 L198.1,515.5
+		M205.3,504.9 L205.3,514.6 M200.8,504.9 L209.8,504.9 M200.8,514.6 L209.8,514.6 M209.3,510.5 L209.3,520.2
+		M204.8,510.5 L213.8,510.5 M204.8,520.2 L213.8,520.2 M213.2,505.1 L213.2,514.8 M208.7,505.1 L217.7,505.1
+		M208.7,514.8 L217.7,514.8 M217.1,490.8 L217.1,500.4 M212.6,490.8 L221.6,490.8 M212.6,500.4 L221.6,500.4
+		M221.0,481.8 L221.0,491.5 M216.5,481.8 L225.5,481.8 M216.5,491.5 L225.5,491.5 M232.8,482.0 L232.8,491.7
+		M228.3,482.0 L237.3,482.0 M228.3,491.7 L237.3,491.7 M236.7,429.2 L236.7,438.8 M232.2,429.2 L241.2,429.2
+		M232.2,438.8 L241.2,438.8 M240.6,424.7 L240.6,434.3 M236.1,424.7 L245.1,424.7 M236.1,434.3 L245.1,434.3
+		M244.5,420.0 L244.5,429.6 M240.0,420.0 L249.0,420.0 M240.0,429.6 L249.0,429.6 M248.4,410.6 L248.4,420.2
+		M243.9,410.6 L252.9,410.6 M243.9,420.2 L252.9,420.2 M260.2,406.4 L260.2,416.1 M255.7,406.4 L264.7,406.4
+		M255.7,416.1 L264.7,416.1 M264.1,401.7 L264.1,411.3 M259.6,401.7 L268.6,401.7 M259.6,411.3 L268.6,411.3
+		M268.0,396.9 L268.0,406.5 M263.5,396.9 L272.5,396.9 M263.5,406.5 L272.5,406.5 M271.9,378.0 L271.9,387.6
+		M267.4,378.0 L276.4,378.0 M267.4,387.6 L276.4,387.6 M275.8,363.8 L275.8,373.4 M271.3,363.8 L280.3,363.8
+		M271.3,373.4 L280.3,373.4 M287.6,352.2 L287.6,361.8 M283.1,352.2 L292.1,352.2 M283.1,361.8 L292.1,361.8
+		M291.5,345.3 L291.5,354.9 M287.0,345.3 L296.0,345.3 M287.0,354.9 L296.0,354.9 M295.4,344.7 L295.4,354.4
+		M290.9,344.7 L299.9,344.7 M290.9,354.4 L299.9,354.4 M299.3,342.9 L299.3,352.6 M294.8,342.9 L303.8,342.9
+		M294.8,352.6 L303.8,352.6 M303.3,335.8 L303.3,345.5 M298.8,335.8 L307.8,335.8 M298.8,345.5 L307.8,345.5
+		M315.0,311.2 L315.0,320.9 M310.5,311.2 L319.5,311.2 M310.5,320.9 L319.5,320.9 M318.9,301.1 L318.9,310.8
+		M314.4,301.1 L323.4,301.1 M314.4,310.8 L323.4,310.8 M322.8,304.8 L322.8,314.5 M318.3,304.8 L327.3,304.8
+		M318.3,314.5 L327.3,314.5 M330.7,312.2 L330.7,321.9 M326.2,312.2 L335.2,312.2 M326.2,321.9 L335.2,321.9
+		M342.4,329.0 L342.4,338.7 M337.9,329.0 L346.9,329.0 M337.9,338.7 L346.9,338.7 M346.3,335.2 L346.3,344.9
+		M341.8,335.2 L350.8,335.2 M341.8,344.9 L350.8,344.9 M350.3,325.6 L350.3,335.2 M345.8,325.6 L354.8,325.6
+		M345.8,335.2 L354.8,335.2 M354.2,321.1 L354.2,330.8 M349.7,321.1 L358.7,321.1 M349.7,330.8 L358.7,330.8
+		M358.1,320.2 L358.1,329.9 M353.6,320.2 L362.6,320.2 M353.6,329.9 L362.6,329.9 M369.8,334.8 L369.8,344.4
+		M365.3,334.8 L374.3,334.8 M365.3,344.4 L374.3,344.4 M373.8,348.6 L373.8,358.3 M369.3,348.6 L378.3,348.6
+		M369.3,358.3 L378.3,358.3 M377.7,355.5 L377.7,365.1 M373.2,355.5 L382.2,355.5 M373.2,365.1 L382.2,365.1
+		M381.6,348.9 L381.6,358.5 M377.1,348.9 L386.1,348.9 M377.1,358.5 L386.1,358.5 M385.5,345.5 L385.5,355.1
+		M381.0,345.5 L390.0,345.5 M381.0,355.1 L390.0,355.1 M397.3,329.2 L397.3,338.9 M392.8,329.2 L401.8,329.2
+		M392.8,338.9 L401.8,338.9 M401.2,320.4 L401.2,330.0 M396.7,320.4 L405.7,320.4 M396.7,330.0 L405.7,330.0
+		M405.1,316.0 L405.1,325.7 M400.6,316.0 L409.6,316.0 M400.6,325.7 L409.6,325.7 M409.0,303.5 L409.0,313.1
+		M404.5,303.5 L413.5,303.5 M404.5,313.1 L413.5,313.1 M412.9,293.3 L412.9,302.9 M408.4,293.3 L417.4,293.3
+		M408.4,302.9 L417.4,302.9 M424.7,290.1 L424.7,299.8 M420.2,290.1 L429.2,290.1 M420.2,299.8 L429.2,299.8
+		M428.6,285.3 L428.6,295.0 M424.1,285.3 L433.1,285.3 M424.1,295.0 L433.1,295.0 M436.4,280.9 L436.4,290.6
+		M431.9,280.9 L440.9,280.9 M431.9,290.6 L440.9,290.6 M440.3,282.2 L440.3,291.9 M435.8,282.2 L444.8,282.2
+		M435.8,291.9 L444.8,291.9 M452.1,297.0 L452.1,306.7 M447.6,297.0 L456.6,297.0 M447.6,306.7 L456.6,306.7
+		M456.0,287.7 L456.0,297.3 M451.5,287.7 L460.5,287.7 M451.5,297.3 L460.5,297.3 M463.8,277.2 L463.8,286.9
+		M459.3,277.2 L468.3,277.2 M459.3,286.9 L468.3,286.9 M467.8,275.5 L467.8,285.2 M463.3,275.5 L472.3,275.5
+		M463.3,285.2 L472.3,285.2 M479.5,266.5 L479.5,276.2 M475.0,266.5 L484.0,266.5 M475.0,276.2 L484.0,276.2
+		M483.4,252.6 L483.4,262.2 M478.9,252.6 L487.9,252.6 M478.9,262.2 L487.9,262.2 M487.3,239.9 L487.3,249.6
+		M482.8,239.9 L491.8,239.9 M482.8,249.6 L491.8,249.6 M491.3,218.0 L491.3,227.6 M486.8,218.0 L495.8,218.0
+		M486.8,227.6 L495.8,227.6 M495.2,204.5 L495.2,214.2 M490.7,204.5 L499.7,204.5 M490.7,214.2 L499.7,214.2
+		M506.9,203.6 L506.9,213.3 M502.4,203.6 L511.4,203.6 M502.4,213.3 L511.4,213.3 M510.8,213.0 L510.8,222.7
+		M506.3,213.0 L515.3,213.0 M506.3,222.7 L515.3,222.7 M514.8,207.2 L514.8,216.8 M510.3,207.2 L519.3,207.2
+		M510.3,216.8 L519.3,216.8 M518.7,204.7 L518.7,214.3 M514.2,204.7 L523.2,204.7 M514.2,214.3 L523.2,214.3
+		M522.6,199.1 L522.6,208.7 M518.1,199.1 L527.1,199.1 M518.1,208.7 L527.1,208.7 M538.3,192.5 L538.3,202.1
+		M533.8,192.5 L542.8,192.5 M533.8,202.1 L542.8,202.1 M542.2,185.0 L542.2,194.7 M537.7,185.0 L546.7,185.0
+		M537.7,194.7 L546.7,194.7 M546.1,181.1 L546.1,190.8 M541.6,181.1 L550.6,181.1 M541.6,190.8 L550.6,190.8
+		M550.0,192.5 L550.0,202.1 M545.5,192.5 L554.5,192.5 M545.5,202.1 L554.5,202.1 M561.8,202.0 L561.8,211.6
+		M557.3,202.0 L566.3,202.0 M557.3,211.6 L566.3,211.6 M565.7,197.1 L565.7,206.8 M561.2,197.1 L570.2,197.1
+		M561.2,206.8 L570.2,206.8 M569.6,193.1 L569.6,202.7 M565.1,193.1 L574.1,193.1 M565.1,202.7 L574.1,202.7
+		M573.5,190.0 L573.5,199.7 M569.0,190.0 L578.0,190.0 M569.0,199.7 L578.0,199.7 M577.4,195.4 L577.4,205.0
+		M572.9,195.4 L581.9,195.4  '/>	<path stroke='rgb( 28, 213, 219)'  d='M572.9,205.0 L581.9,205.0 M581.3,192.8 L581.3,202.5 M576.8,192.8 L585.8,192.8 M576.8,202.5 L585.8,202.5
+		M585.3,193.5 L585.3,205.5 M580.8,193.5 L589.8,193.5 M580.8,205.5 L589.8,205.5 M589.2,198.7 L589.2,212.1
+		M584.7,198.7 L593.7,198.7 M584.7,212.1 L593.7,212.1 M593.1,197.5 L593.1,211.0 M588.6,197.5 L597.6,197.5
+		M588.6,211.0 L597.6,211.0 M597.0,185.8 L597.0,203.7 M592.5,185.8 L601.5,185.8 M592.5,203.7 L601.5,203.7
+		M600.9,181.0 L600.9,207.2 M596.4,181.0 L605.4,181.0 M596.4,207.2 L605.4,207.2 M604.8,174.1 L604.8,208.1
+		M600.3,174.1 L609.3,174.1 M600.3,208.1 L609.3,208.1 M608.8,156.7 L608.8,197.7 M604.3,156.7 L613.3,156.7
+		M604.3,197.7 L613.3,197.7 M612.7,159.0 L612.7,205.7 M608.2,159.0 L617.2,159.0 M608.2,205.7 L617.2,205.7
+		M616.6,157.7 L616.6,209.4 M612.1,157.7 L621.1,157.7 M612.1,209.4 L621.1,209.4 M620.5,144.2 L620.5,200.5
+		M616.0,144.2 L625.0,144.2 M616.0,200.5 L625.0,200.5 M624.4,137.2 L624.4,198.0 M619.9,137.2 L628.9,137.2
+		M619.9,198.0 L628.9,198.0 M628.3,128.1 L628.3,192.8 M623.8,128.1 L632.8,128.1 M623.8,192.8 L632.8,192.8
+		M632.3,117.8 L632.3,186.3 M627.8,117.8 L636.8,117.8 M627.8,186.3 L636.8,186.3 M636.2,109.2 L636.2,181.6
+		M631.7,109.2 L640.7,109.2 M631.7,181.6 L640.7,181.6 M640.1,111.9 L640.1,187.8 M635.6,111.9 L644.6,111.9
+		M635.6,187.8 L644.6,187.8 M644.0,114.6 L644.0,193.6 M639.5,114.6 L648.5,114.6 M639.5,193.6 L648.5,193.6
+		M647.9,105.3 L647.9,187.5 M643.4,105.3 L652.4,105.3 M643.4,187.5 L652.4,187.5 M651.8,99.2 L651.8,184.8
+		M647.3,99.2 L656.3,99.2 M647.3,184.8 L656.3,184.8 M655.7,96.2 L655.7,185.2 M651.2,96.2 L660.2,96.2
+		M651.2,185.2 L660.2,185.2 M659.7,93.5 L659.7,185.9 M655.2,93.5 L664.2,93.5 M655.2,185.9 L664.2,185.9
+		M663.6,89.8 L663.6,185.7 M659.1,89.8 L668.1,89.8 M659.1,185.7 L668.1,185.7 M667.5,85.7 L667.5,185.1
+		M663.0,85.7 L672.0,85.7 M663.0,185.1 L672.0,185.1 M671.4,83.7 L671.4,186.6 M666.9,83.7 L675.9,83.7
+		M666.9,186.6 L675.9,186.6  '/>	<use xlink:href='#gpPt5' transform='translate(99.6,506.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(103.5,502.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(107.4,494.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(111.3,483.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(123.1,476.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(127.0,497.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(130.9,488.2) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(134.8,486.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(138.8,479.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(150.5,477.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(154.4,472.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(158.3,470.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(162.3,479.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(166.2,500.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(177.9,521.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(181.8,536.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(185.8,539.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(189.7,519.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(193.6,510.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(205.3,509.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(209.3,515.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(213.2,510.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(217.1,495.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(221.0,486.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(232.8,486.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(236.7,434.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(240.6,429.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(244.5,424.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(248.4,415.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(260.2,411.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(264.1,406.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(268.0,401.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(271.9,382.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(275.8,368.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(287.6,357.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(291.5,350.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(295.4,349.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(299.3,347.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(303.3,340.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(315.0,316.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(318.9,306.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(322.8,309.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(330.7,317.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(342.4,333.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(346.3,340.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(350.3,330.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(354.2,326.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(358.1,325.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(369.8,339.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(373.8,353.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(377.7,360.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(381.6,353.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(385.5,350.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(397.3,334.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(401.2,325.2) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(405.1,320.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(409.0,308.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(412.9,298.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(424.7,295.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(428.6,290.2) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(436.4,285.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(440.3,287.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(452.1,301.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(456.0,292.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(463.8,282.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(467.8,280.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(479.5,271.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(483.4,257.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(487.3,244.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(491.3,222.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(495.2,209.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(506.9,208.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(510.8,217.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(514.8,212.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(518.7,209.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(522.6,203.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(538.3,197.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(542.2,189.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(546.1,186.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(550.0,197.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(561.8,206.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(565.7,201.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(569.6,197.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(573.5,194.9) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(577.4,200.2) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(581.3,197.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(585.3,199.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(589.2,205.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(593.1,204.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(597.0,194.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(600.9,194.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(604.8,191.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(608.8,177.2) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(612.7,182.3) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(616.6,183.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(620.5,172.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(624.4,167.6) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(628.3,160.5) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(632.3,152.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(636.2,145.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(640.1,149.8) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(644.0,154.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(647.9,146.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(651.8,142.0) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(655.7,140.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(659.7,139.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(663.6,137.7) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(667.5,135.4) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(671.4,135.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+	<use xlink:href='#gpPt5' transform='translate(270.1,162.1) scale(4.50)' color='rgb( 28, 213, 219)'/>
+</g>
+	</g>
+	<g id="gnuplot_plot_7" ><title>Machine Learning</title>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<g transform="translate(240.7,184.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >Machine Learning</tspan></text>
+	</g>
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='rgb(211,   2,   8)'  d='M249.0,180.1 L291.2,180.1 M99.6,506.5 L103.5,502.4 L107.4,494.9 L111.3,483.3 L123.1,476.1 L127.0,497.4
+		L130.9,488.2 L134.8,486.0 L138.8,479.1 L150.5,477.4 L154.4,472.0 L158.3,470.4 L162.3,479.0 L166.2,500.9
+		L177.9,521.7 L181.8,536.0 L185.8,539.3 L189.7,519.0 L193.6,510.7 L205.3,509.7 L209.3,515.4 L213.2,510.0
+		L217.1,495.6 L221.0,486.6 L232.8,486.9 L236.7,434.0 L240.6,429.5 L244.5,424.8 L248.4,415.4 L260.2,411.3
+		L264.1,406.5 L268.0,401.7 L271.9,382.8 L275.8,368.6 L287.6,357.0 L291.5,350.1 L295.4,349.6 L299.3,347.8
+		L303.3,340.7 L315.0,316.1 L318.9,306.0 L322.8,309.7 L330.7,317.1 L342.4,333.8 L346.3,340.1 L350.3,330.4
+		L354.2,326.0 L358.1,325.0 L369.8,339.6 L373.8,353.5 L377.7,360.3 L381.6,353.7 L385.5,350.3 L397.3,334.0
+		L401.2,325.2 L405.1,320.8 L409.0,308.3 L412.9,298.1 L424.7,295.0 L428.6,290.2 L436.4,285.8 L440.3,287.1
+		L452.1,301.9 L456.0,292.5 L463.8,282.0 L467.8,280.3 L479.5,271.3 L483.4,257.4 L487.3,244.8 L491.3,222.8
+		L495.2,209.3 L506.9,208.4 L510.8,217.8 L514.8,212.0 L518.7,209.5 L522.6,203.9 L538.3,197.3 L542.2,189.9
+		L546.1,186.0 L550.0,197.3 L561.8,206.8 L565.7,201.9 L569.6,197.9 L573.5,194.9 L577.4,200.2 L581.3,197.6
+		L585.3,199.5 L589.2,205.4 L593.1,204.3 L597.0,194.8 L600.9,194.1 L604.8,191.1 L608.8,177.2 L612.7,182.3
+		L616.6,183.6 L620.5,172.4 L624.4,167.6 L628.3,160.5 L632.3,152.0 L636.2,145.4 L640.1,149.8 L644.0,154.1
+		L647.9,146.4 L651.8,142.0 L655.7,140.7 L659.7,139.7 L663.6,137.7 L667.5,135.4 L671.4,135.1  '/>	<use xlink:href='#gpPt6' transform='translate(99.6,506.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(103.5,502.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(107.4,494.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(111.3,483.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(123.1,476.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(127.0,497.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(130.9,488.2) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(134.8,486.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(138.8,479.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(150.5,477.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(154.4,472.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(158.3,470.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(162.3,479.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(166.2,500.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(177.9,521.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(181.8,536.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(185.8,539.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(189.7,519.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(193.6,510.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(205.3,509.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(209.3,515.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(213.2,510.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(217.1,495.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(221.0,486.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(232.8,486.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(236.7,434.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(240.6,429.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(244.5,424.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(248.4,415.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(260.2,411.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(264.1,406.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(268.0,401.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(271.9,382.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(275.8,368.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(287.6,357.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(291.5,350.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(295.4,349.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(299.3,347.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(303.3,340.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(315.0,316.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(318.9,306.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(322.8,309.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(330.7,317.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(342.4,333.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(346.3,340.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(350.3,330.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(354.2,326.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(358.1,325.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(369.8,339.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(373.8,353.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(377.7,360.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(381.6,353.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(385.5,350.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(397.3,334.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(401.2,325.2) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(405.1,320.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(409.0,308.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(412.9,298.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(424.7,295.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(428.6,290.2) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(436.4,285.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(440.3,287.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(452.1,301.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(456.0,292.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(463.8,282.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(467.8,280.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(479.5,271.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(483.4,257.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(487.3,244.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(491.3,222.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(495.2,209.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(506.9,208.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(510.8,217.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(514.8,212.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(518.7,209.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(522.6,203.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(538.3,197.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(542.2,189.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(546.1,186.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(550.0,197.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(561.8,206.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(565.7,201.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(569.6,197.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(573.5,194.9) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(577.4,200.2) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(581.3,197.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(585.3,199.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(589.2,205.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(593.1,204.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(597.0,194.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(600.9,194.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(604.8,191.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(608.8,177.2) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(612.7,182.3) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(616.6,183.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(620.5,172.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(624.4,167.6) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(628.3,160.5) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(632.3,152.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(636.2,145.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(640.1,149.8) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(644.0,154.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(647.9,146.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(651.8,142.0) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(655.7,140.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(659.7,139.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(663.6,137.7) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(667.5,135.4) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(671.4,135.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+	<use xlink:href='#gpPt6' transform='translate(270.1,180.1) scale(2.70)' color='rgb(211,   2,   8)'/>
+</g>
+	</g>
+<g fill="none" color="#FFFFFF" stroke="rgb(211,   2,   8)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+	<path stroke='black'  d='M99.6,54.1 L99.6,564.0 L700.3,564.0 L700.3,54.1 L99.6,54.1 Z  '/></g>
+<g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+</g>
+</g>
+</svg>
+

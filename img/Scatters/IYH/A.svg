@@ -40,7 +40,7 @@
 	  <feComposite in='SourceGraphic' in2='grey' operator='atop'/>
 	</filter>
 </defs>
-<g fill="none" color="#FFFFFF" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
+<g fill="none" color="#FFFFFF" stroke="black" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
@@ -330,7 +330,6 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<use xlink:href='#gpPt0' transform='translate(531.8,182.8) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(472.2,235.0) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(427.5,267.3) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(461.2,225.5) scale(4.50)' color='rgb(255,   0,   0)'/>
@@ -1083,7 +1082,9 @@
 	<use xlink:href='#gpPt0' transform='translate(287.4,271.6) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(359.4,296.4) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(457.5,231.9) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(434.1,223.7) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(400.5,247.7) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(366.5,329.5) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(320.2,289.9) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(250.7,72.1) scale(4.50)' color='rgb(255,   0,   0)'/>
 </g>
 	</g>
@@ -1096,32 +1097,32 @@
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="8.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0,   0, 255)'  d='M229.6,90.1 L271.8,90.1 M457.5,231.9  '/>	<use xlink:href='#gpPt1' transform='translate(457.5,231.9) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<path stroke='rgb(  0,   0, 255)'  d='M229.6,90.1 L271.8,90.1 M366.5,329.5  '/>	<use xlink:href='#gpPt1' transform='translate(366.5,329.5) scale(4.50)' color='rgb(  0,   0, 255)'/>
 	<use xlink:href='#gpPt1' transform='translate(250.7,90.1) scale(4.50)' color='rgb(  0,   0, 255)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_3" ><title>Y = 0.0264 + 1.11X</title>
+	<g id="gnuplot_plot_3" ><title>Y = 0.0206 + 1.11X</title>
 <g fill="none" color="#FFFFFF" stroke="rgb(  0,   0, 255)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 	<g transform="translate(221.3,112.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="arial" >Y = 0.0264 + 1.11X</tspan></text>
+		<text><tspan font-family="arial" >Y = 0.0206 + 1.11X</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 204,   0)'  d='M229.6,108.1 L271.8,108.1 M63.6,376.1 L70.8,373.5 L78.0,370.9 L85.2,368.3 L92.3,365.7 L99.5,363.1
-		L106.7,360.5 L113.9,357.9 L121.1,355.4 L128.3,352.8 L135.5,350.2 L142.6,347.6 L149.8,345.0 L157.0,342.4
-		L164.2,339.8 L171.4,337.2 L178.6,334.6 L185.8,332.0 L192.9,329.4 L200.1,326.8 L207.3,324.2 L214.5,321.6
-		L221.7,319.1 L228.9,316.5 L236.1,313.9 L243.2,311.3 L250.4,308.7 L257.6,306.1 L264.8,303.5 L272.0,300.9
-		L279.2,298.3 L286.4,295.7 L293.5,293.1 L300.7,290.5 L307.9,287.9 L315.1,285.3 L322.3,282.7 L329.5,280.2
-		L336.7,277.6 L343.8,275.0 L351.0,272.4 L358.2,269.8 L365.4,267.2 L372.6,264.6 L379.8,262.0 L387.0,259.4
-		L394.1,256.8 L401.3,254.2 L408.5,251.6 L415.7,249.0 L422.9,246.4 L430.1,243.9 L437.3,241.3 L444.5,238.7
-		L451.6,236.1 L458.8,233.5 L466.0,230.9 L473.2,228.3 L480.4,225.7 L487.6,223.1 L494.8,220.5 L501.9,217.9
-		L509.1,215.3 L516.3,212.7 L523.5,210.1 L530.7,207.5 L537.9,205.0 L545.1,202.4 L552.2,199.8 L559.4,197.2
-		L566.6,194.6 L573.8,192.0 L581.0,189.4 L588.2,186.8 L595.4,184.2 L602.5,181.6 L609.7,179.0 L616.9,176.4
-		L624.1,173.8 L631.3,171.2 L638.5,168.6 L645.7,166.1 L652.8,163.5 L660.0,160.9 L667.2,158.3 L674.4,155.7
-		L681.6,153.1 L688.8,150.5 L696.0,147.9 L703.1,145.3 L710.3,142.7 L717.5,140.1 L724.7,137.5 L731.9,134.9
-		L739.1,132.3 L746.3,129.8 L753.4,127.2 L760.6,124.6 L767.8,122.0 L775.0,119.4  '/></g>
+	<path stroke='rgb(  0, 204,   0)'  d='M229.6,108.1 L271.8,108.1 M63.6,376.3 L70.8,373.8 L78.0,371.2 L85.2,368.6 L92.3,366.0 L99.5,363.4
+		L106.7,360.8 L113.9,358.2 L121.1,355.6 L128.3,353.0 L135.5,350.4 L142.6,347.8 L149.8,345.2 L157.0,342.6
+		L164.2,340.0 L171.4,337.4 L178.6,334.8 L185.8,332.2 L192.9,329.6 L200.1,327.0 L207.3,324.4 L214.5,321.8
+		L221.7,319.3 L228.9,316.7 L236.1,314.1 L243.2,311.5 L250.4,308.9 L257.6,306.3 L264.8,303.7 L272.0,301.1
+		L279.2,298.5 L286.4,295.9 L293.5,293.3 L300.7,290.7 L307.9,288.1 L315.1,285.5 L322.3,282.9 L329.5,280.3
+		L336.7,277.7 L343.8,275.1 L351.0,272.5 L358.2,269.9 L365.4,267.3 L372.6,264.7 L379.8,262.2 L387.0,259.6
+		L394.1,257.0 L401.3,254.4 L408.5,251.8 L415.7,249.2 L422.9,246.6 L430.1,244.0 L437.3,241.4 L444.5,238.8
+		L451.6,236.2 L458.8,233.6 L466.0,231.0 L473.2,228.4 L480.4,225.8 L487.6,223.2 L494.8,220.6 L501.9,218.0
+		L509.1,215.4 L516.3,212.8 L523.5,210.2 L530.7,207.7 L537.9,205.1 L545.1,202.5 L552.2,199.9 L559.4,197.3
+		L566.6,194.7 L573.8,192.1 L581.0,189.5 L588.2,186.9 L595.4,184.3 L602.5,181.7 L609.7,179.1 L616.9,176.5
+		L624.1,173.9 L631.3,171.3 L638.5,168.7 L645.7,166.1 L652.8,163.5 L660.0,160.9 L667.2,158.3 L674.4,155.7
+		L681.6,153.2 L688.8,150.6 L696.0,148.0 L703.1,145.4 L710.3,142.8 L717.5,140.2 L724.7,137.6 L731.9,135.0
+		L739.1,132.4 L746.3,129.8 L753.4,127.2 L760.6,124.6 L767.8,122.0 L775.0,119.4  '/></g>
 	</g>
 <g fill="none" color="#FFFFFF" stroke="rgb(  0, 204,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>

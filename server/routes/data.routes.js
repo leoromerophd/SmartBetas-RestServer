@@ -8,8 +8,8 @@ const { verifyToken, verifyAdmin_Role } = require('../middlewares/auth')
     // # Import Schema Models #######################
 const ETFinfo = require('../models/etfinfo.model');
 const ETFdetails = require('../models/etfdetails.model');
-const TodaysEarnings = require('../models/todaysearnings.model')
-const Thechosen = require('../models/thechosen.model');
+const TodaysEarnings = require('../models/todaysearnings.model');
+const TheChosenListIAK = require('../models/thechosenlist/iak');
 
 // GET to Get ETF info data 
 app.get('/etfinfo', function(req, res) {
@@ -106,31 +106,6 @@ app.get('/thechosen', verifyToken, function(req, res) {
                 Thechosen
             });
         });
-});
-
-
-// Search Results ######### Hace falta definir los términos de búsqueda y utilizar
-// operadores de RXJS
-
-app.get('/results/search/:term', (req, res) => {
-
-    let term = req.params.term
-    let regex = new RegExp(term, 'i');
-
-    Thechosen.find({ stocks: { $elemMatch: { symbol: "ADSK" } } })
-        .exec((err, results) => {
-            if (err) {
-                return res.status(400).json({
-                    ok: false,
-                    err
-                });
-            }
-
-            res.json({
-                ok: true,
-                results
-            })
-        })
 });
 
 //  ### Exportar el app de Express ##############
