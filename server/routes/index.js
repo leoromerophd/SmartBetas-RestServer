@@ -17,6 +17,7 @@ app.use(require('./thechosenlist/iyw'));
 app.use(require('./thechosenlist/iyh'));
 app.use(require('./thechosenlist/iyt'));
 app.use(require('./thechosenlist/iyj'));
+app.use(require('./thechosenlist/soxx'));
 
 
 module.exports = app;
