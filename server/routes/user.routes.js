@@ -36,7 +36,7 @@ app.get('/usuarios', verifyToken, (req, res) => {
 });
 
 // POST to Auth User by email and create a new user 
-app.post('/user', [verifyToken, verifyAdmin_Role], (req, res) => {
+app.post('/user', (req, res) => {
     // receives data from user POST
     let body = req.body;
     // Define user from Schema  
