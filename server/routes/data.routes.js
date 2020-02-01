@@ -36,7 +36,7 @@ app.get('/etfinfo', function(req, res) {
 });
 
 // GET to Get ETF details data 
-app.get('/etfdetails', verifyToken, (req, res) => {
+app.get('/etfdetails', (req, res) => {
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 5
@@ -60,7 +60,7 @@ app.get('/etfdetails', verifyToken, (req, res) => {
 });
 
 // GET Todays Earnings data 
-app.get('/earningstoday', verifyToken, function(req, res) {
+app.get('/earningstoday', function(req, res) {
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 4
