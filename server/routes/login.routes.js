@@ -11,8 +11,13 @@ const User = require('../models/user.model');
 
 
 var corsOptions = {
-    origin: 'https://smart-betas.herokuapp.com',
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+    origin: function(origin, callback) {
+        if (whitelist.indexOf(origin) !== -1 || !origin) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
 }
 
 app.post('/login', cors(corsOptions), (req, res) => {
