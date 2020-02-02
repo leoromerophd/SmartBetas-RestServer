@@ -11,18 +11,7 @@ const app = express();
 const User = require('../models/user.model');
 // Define Coors 
 
-var whitelist = ['https://smart-betas.herokuapp.com/', 'http://localhost:8100']
-var corsOptions = {
-    origin: function(origin, callback) {
-        if (whitelist.indexOf(origin) !== -1) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    }
-}
-
-app.post('/login', cors(corsOptions), (req, res) => {
+app.post('/login', (req, res) => {
     let body = req.body;
     User.findOne({ email: body.email }, (err, usuarioDB) => {
         if (err) {
