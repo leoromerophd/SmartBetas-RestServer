@@ -52,9 +52,6 @@ app.post('/login', cors(corsOptions), (req, res) => {
     });
 });
 
-app.listen(120, function() {
-    console.log('CORS-enabled web server listening on port 120')
-})
 
 //  google configurations 
 async function verify(token) {
