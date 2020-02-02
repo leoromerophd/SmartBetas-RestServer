@@ -10,15 +10,24 @@ const app = express();
 const User = require('../models/user.model');
 
 
-var corsOptions = {
-    origin: function(origin, callback) {
-        if (whitelist.indexOf(origin) !== -1 || !origin) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
+var whitelist = ['https://smart-betas.herokuapp.com', 'http://localhost:8100', 'http://localhost:3000']
+var corsOptionsDelegate = function(req, callback) {
+    var corsOptions;
+    if (whitelist.indexOf(req.header('Origin')) !== -1) {
+        corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
+    } else {
+        corsOptions = { origin: false } // disable CORS for this request
     }
+    callback(null, corsOptions) // callback expects two parameters: error and options
 }
+
+app.get('/products/:id', cors(corsOptionsDelegate), function(req, res, next) {
+    res.json({ msg: 'This is CORS-enabled for a whitelisted domain.' })
+})
+
+app.listen(80, function() {
+    console.log('CORS-enabled web server listening on port 80')
+})
 
 app.post('/login', cors(corsOptions), (req, res) => {
     let body = req.body;
