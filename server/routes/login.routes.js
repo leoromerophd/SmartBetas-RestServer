@@ -11,7 +11,7 @@ const app = express();
 const User = require('../models/user.model');
 // Define Coors 
 
-var whitelist = ['https://smart-betas.herokuapp.com/', 'http://example2.com']
+var whitelist = ['https://smart-betas.herokuapp.com/', 'http://localhost:8100']
 var corsOptions = {
     origin: function(origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
