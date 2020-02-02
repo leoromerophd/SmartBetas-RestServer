@@ -9,7 +9,7 @@ const app = express();
 
 // # Import Schema Models #######################
 const User = require('../models/user.model');
-// Define Coors 
+
 
 app.post('/login', (req, res) => {
     let body = req.body;

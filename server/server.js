@@ -13,20 +13,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
     // to parse application/json
 app.use(bodyParser.json());
 
-// Habilitar peticiones COORS 
-var whitelist = ['https://smart-betas.herokuapp.com', 'http://localhost:8100', 'http://localhost:3000']
-var corsOptions = {
-    origin: function(origin, callback) {
-        if (whitelist.indexOf(origin) !== -1) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'))
-        }
-    }
-}
-
-app.use(cors(corsOptions))
-
 // App Routes #################################### 
 app.use(require('./routes/index'));
 
