@@ -9,7 +9,6 @@ const app = express();
 // # Import Schema Models #######################
 const User = require('../models/user.model');
 
-
 var whitelist = ['https://smart-betas.herokuapp.com', 'http://localhost:8100', 'http://localhost:3000']
 var corsOptionsDelegate = function(req, callback) {
     var corsOptions;
@@ -21,15 +20,12 @@ var corsOptionsDelegate = function(req, callback) {
     callback(null, corsOptions) // callback expects two parameters: error and options
 }
 
-app.get('/products/:id', cors(corsOptionsDelegate), function(req, res, next) {
-    res.json({ msg: 'This is CORS-enabled for a whitelisted domain.' })
-})
 
 app.listen(80, function() {
     console.log('CORS-enabled web server listening on port 80')
 })
 
-app.post('/login', cors(corsOptions), (req, res) => {
+app.post('/login', cors(corsOptionsDelegate), (req, res) => {
     let body = req.body;
     User.findOne({ email: body.email }, (err, usuarioDB) => {
         if (err) {
