@@ -6,12 +6,16 @@ const jwt = require('jsonwebtoken');
 const { OAuth2Client } = require('google-auth-library');
 const client = new OAuth2Client(process.env.CLIENT_ID);
 const app = express();
-
 // # Import Schema Models #######################
 const User = require('../models/user.model');
 
 
-app.post('/login', (req, res) => {
+var corsOptions = {
+    origin: 'https://smart-betas.herokuapp.com',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+app.post('/login', cors(corsOptions), (req, res) => {
     let body = req.body;
     User.findOne({ email: body.email }, (err, usuarioDB) => {
         if (err) {
@@ -47,6 +51,11 @@ app.post('/login', (req, res) => {
         });
     });
 });
+
+app.listen(80, function() {
+    console.log('CORS-enabled web server listening on port 80')
+})
+
 
 //  google configurations 
 async function verify(token) {
