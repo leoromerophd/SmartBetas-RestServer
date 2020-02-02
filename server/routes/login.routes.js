@@ -1,5 +1,6 @@
 //#####  Importar Liberías ###################
 const express = require('express');
+const cors = require('cors')
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { OAuth2Client } = require('google-auth-library');
@@ -8,9 +9,20 @@ const app = express();
 
 // # Import Schema Models #######################
 const User = require('../models/user.model');
+// Define Coors 
 
+var whitelist = ['https://smart-betas.herokuapp.com/', 'http://example2.com']
+var corsOptions = {
+    origin: function(origin, callback) {
+        if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
+}
 
-app.post('/login', (req, res) => {
+app.post('/login', cors(corsOptions), (req, res) => {
     let body = req.body;
     User.findOne({ email: body.email }, (err, usuarioDB) => {
         if (err) {

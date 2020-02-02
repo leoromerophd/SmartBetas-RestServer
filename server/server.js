@@ -1,6 +1,7 @@
 // #########  Static Variables ###################
 require('./config/config');
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
 const path = require('path')
@@ -11,6 +12,18 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }))
     // to parse application/json
 app.use(bodyParser.json());
+
+// Habilitar peticiones COORS 
+var whitelist = ['https://smart-betas.herokuapp.com/', 'http://example2.com']
+var corsOptions = {
+    origin: function(origin, callback) {
+        if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'))
+        }
+    }
+}
 
 // App Routes #################################### 
 app.use(require('./routes/index'));
