@@ -13,6 +13,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
     // to parse application/json
 app.use(bodyParser.json());
 
+// Configurar Cors
+app.use(cors({ origin: true, credentials: true }));
+
 // App Routes #################################### 
 app.use(require('./routes/index'));
 

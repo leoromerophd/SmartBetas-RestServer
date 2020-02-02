@@ -9,23 +9,9 @@ const app = express();
 // # Import Schema Models #######################
 const User = require('../models/user.model');
 
-var whitelist = ['https://smart-betas.herokuapp.com', 'http://localhost:8100', 'http://localhost:3000']
-var corsOptionsDelegate = function(req, callback) {
-    var corsOptions;
-    if (whitelist.indexOf(req.header('Origin')) !== -1) {
-        corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
-    } else {
-        corsOptions = { origin: false } // disable CORS for this request
-    }
-    callback(null, corsOptions) // callback expects two parameters: error and options
-}
 
 
-app.listen(80, function() {
-    console.log('CORS-enabled web server listening on port 80')
-})
-
-app.post('/login', cors(corsOptionsDelegate), (req, res) => {
+app.post('/login', (req, res) => {
     let body = req.body;
     User.findOne({ email: body.email }, (err, usuarioDB) => {
         if (err) {
