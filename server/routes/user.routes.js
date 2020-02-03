@@ -111,7 +111,13 @@ app.delete('/user/:id', [verifyToken, verifyAdmin_Role], (req, res) => {
     });
 });
 
-
+app.get('/user', verifyToken, (req, res) => {
+    const user = req.user;
+    res.json({
+        ok: true,
+        user
+    })
+});
 
 //  ### Exportar el app de Express ##############
 module.exports = app;
