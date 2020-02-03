@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 // ###############################################
 // MiddleWares to receive data from User Payloads
 // to parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: true }))
     // to parse application/json
 app.use(bodyParser.json());
 
