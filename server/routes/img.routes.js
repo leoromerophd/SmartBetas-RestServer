@@ -5,7 +5,7 @@ let app = express();
 const { verifyTokenImg } = require('../middlewares/auth')
 
 
-app.get('/img/:type/:etf/:img', verifyTokenImg, (req, res) => {
+app.get('/img/:type/:etf/:img', (req, res) => {
 
     let type = req.params.type;
     let etf = req.params.etf
