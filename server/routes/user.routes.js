@@ -63,7 +63,7 @@ app.post('/user/signin', (req, res) => {
 });
 
 // PUT to update user info 
-app.put('/user/:id', [verifyToken, verifyAdmin_Role], (req, res) => {
+app.put('/user/:id', [verifyToken], (req, res) => {
     let id = req.params.id;
     // usa el paquete underscore _ para definir sólo los campos a modificar
     let body = _.pick(req.body, ['name', 'email', 'img', 'estado']);
