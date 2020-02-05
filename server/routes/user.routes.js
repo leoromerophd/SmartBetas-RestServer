@@ -66,7 +66,7 @@ app.post('/user/signin', (req, res) => {
 app.put('/user/:id', [verifyToken], (req, res) => {
     let id = req.params.id;
     // usa el paquete underscore _ para definir sólo los campos a modificar
-    let body = _.pick(req.body, ['name', 'email', 'img', 'estado']);
+    let body = _.pick(req.body, ['name', 'email']);
     // Encuentra en la BBDD y manda nuevo valor (new:true a la respuesta)
     //  run validators corre las condiciones especificadas en el esquema
     User.findByIdAndUpdate(id, body, { new: true }, (err, userDB) => {
