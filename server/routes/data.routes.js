@@ -18,7 +18,7 @@ app.get('/etfinfo', function(req, res) {
     let limit = req.query.limit || 4
     limit = Number(limit);
 
-    ETFinfo.find({}, 'Symbol ShortName longName description componentsURL SmartBetaList')
+    ETFinfo.find({}, 'symbol name SmartBetaList TradedSince SharesOutstanding Description FirstComponentName FirstComponentWeight FirstComponentSymbol SecondComponentName SecondComponentWeight SecondComponentSymbol ThirdComponentName ThirdComponentWeight ThirdComponentSymbol FourthComponentName FourthComponentWeight FourthComponentSymbol FifthComponentName FifthComponentWeight FifthComponentSymbol')
         .skip(page)
         .limit(limit)
         .exec((err, ETFinfo) => {
@@ -31,30 +31,6 @@ app.get('/etfinfo', function(req, res) {
             res.json({
                 ok: true,
                 ETFinfo
-            });
-        });
-});
-
-// GET to Get ETF details data 
-app.get('/etfdetails', (req, res) => {
-    let page = req.query.page || 0;
-    page = Number(page);
-    let limit = req.query.limit || 5
-    limit = Number(limit);
-
-    ETFdetails.find({}, 'symbol name TradedSince TotalAssets SharesOutstanding FirstComponentName FirstComponentWeight FirstComponentSymbol SecondComponentName SecondComponentWeight SecondComponentSymbol ThirdComponentName ThirdComponentWeight ThirdComponentSymbol FourthComponentName FourthComponentWeight FourthComponentSymbol FifthComponentName FifthComponentWeight FifthComponentSymbol')
-        .skip(page)
-        .limit(limit)
-        .exec((err, ETFdetails) => {
-            if (err) {
-                return res.status(400).json({
-                    ok: false,
-                    err
-                });
-            }
-            res.json({
-                ok: true,
-                ETFdetails
             });
         });
 });
