@@ -16,7 +16,7 @@ app.get('/thechosenlist/IBB', (req, res) => {
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIBB.find({}, 'TheChosenList')
+    TheChosenListIBB.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
         .exec((err, TheChosenListIBB) => {

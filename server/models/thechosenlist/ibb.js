@@ -4,9 +4,8 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 // Definir el Formato de la colección ~ Modelo
 
-let thechosenlistIBBSchema = new Schema({
-    TheChosenListIBB: [{
-
+let thechosenlistIBBSchema = new Schema(
+    [{
         symbol: String,
         TheChosen: String,
         HpFcast: String,
@@ -14,9 +13,8 @@ let thechosenlistIBBSchema = new Schema({
         Frec20: String,
         Frec50: String,
         Frec200: String,
-
     }]
-});
+);
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
