@@ -16,7 +16,7 @@ app.get('/thechosenlist/IGV', (req, res) => {
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIGV.find({}, 'TheChosenList')
+    TheChosenListIGV.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
         .exec((err, TheChosenListIGV) => {

@@ -16,7 +16,7 @@ app.get('/thechosenlist/IYH', (req, res) => {
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIYH.find({}, 'TheChosenList')
+    TheChosenListIYH.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
         .exec((err, TheChosenListIYH) => {
