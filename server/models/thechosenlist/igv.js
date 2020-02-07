@@ -19,4 +19,4 @@ let thechosenlistIGVSchema = new Schema(
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
 let TheChosenListIGV = mongoose.model('igvthechosens', thechosenlistIGVSchema);
-module.exports = TheChosenListIGV;
+module.exports = TheChosenList;
