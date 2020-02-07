@@ -9,7 +9,7 @@ const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
 const TheChosenListIBB = require('../../models/thechosenlist/ibb');
 
 // GET The Chosen IBB list  
-app.get('/thechosenlist/IBB', verifyToken, (req, res) => {
+app.get('/thechosenlist/IBB', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
