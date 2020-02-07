@@ -19,7 +19,7 @@ app.get('/thechosenlist/IGV', (req, res) => {
     TheChosenList.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
-        .exec((err, TheChosenListIGV) => {
+        .exec((err, TheChosenList) => {
             if (err) {
                 return res.status(400).json({
                     ok: false,
