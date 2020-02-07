@@ -18,5 +18,5 @@ let thechosenlistIYFSchema = new Schema(
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let TheChosenListIYF = mongoose.model('IYFthechosens', thechosenlistIYFSchema);
-module.exports = TheChosenListIYF;
+let TheChosenList = mongoose.model('IYFthechosens', thechosenlistIYFSchema);
+module.exports = TheChosenList;
