@@ -6,7 +6,7 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const TheChosenListIBB = require('../../models/thechosenlist/ibb');
+const TheChosenList = require('../../models/thechosenlist/ibb');
 
 // GET The Chosen IBB list  
 app.get('/thechosenlist/IBB', (req, res) => {
@@ -16,10 +16,10 @@ app.get('/thechosenlist/IBB', (req, res) => {
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIBB.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
+    TheChosenList.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
-        .exec((err, TheChosenListIBB) => {
+        .exec((err, TheChosenList) => {
             if (err) {
                 return res.status(400).json({
                     ok: false,
@@ -28,7 +28,7 @@ app.get('/thechosenlist/IBB', (req, res) => {
             }
             res.json({
                 ok: true,
-                TheChosenListIBB
+                TheChosenList
             });
         });
 });
