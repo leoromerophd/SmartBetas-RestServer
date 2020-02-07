@@ -8,7 +8,7 @@ app.use(require('./user.routes'));
 app.use(require('./img.routes'));
 app.use(require('./uploads'));
 
-app.use(require('./thechosenlist/iak'));
+app.use(require('./thechosenlist/ibb'));
 app.use(require('./thechosenlist/igv'));
 app.use(require('./thechosenlist/ita'));
 app.use(require('./thechosenlist/ivw'));

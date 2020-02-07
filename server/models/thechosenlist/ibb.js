@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 // Definir el Formato de la colección ~ Modelo
 
-let thechosenlistIAKSchema = new Schema({
-    TheChosenListIAK: [{
+let thechosenlistIBBSchema = new Schema({
+    TheChosenListIBB: [{
 
         symbol: String,
         TheChosen: String,
@@ -20,5 +20,5 @@ let thechosenlistIAKSchema = new Schema({
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let TheChosenListIAK = mongoose.model('iakthechosens', thechosenlistIAKSchema);
-module.exports = TheChosenListIAK;
+let TheChosenListIBB = mongoose.model('ibbthechosens', thechosenlistIBBSchema);
+module.exports = TheChosenListIBB;

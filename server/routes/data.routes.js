@@ -8,7 +8,7 @@ const { verifyToken, verifyAdmin_Role } = require('../middlewares/auth')
     // # Import Schema Models #######################
 const ETFinfo = require('../models/etfinfo.model');
 const TodaysEarnings = require('../models/todaysearnings.model');
-const TheChosenListIAK = require('../models/thechosenlist/iak');
+const TheChosenListIAK = require('../models/thechosenlist/ibb');
 
 // GET to Get ETF info data 
 app.get('/etfinfo', function(req, res) {

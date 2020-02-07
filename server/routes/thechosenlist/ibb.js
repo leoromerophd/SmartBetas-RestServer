@@ -6,20 +6,20 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const TheChosenListIAK = require('../../models/thechosenlist/iak');
+const TheChosenListIBB = require('../../models/thechosenlist/ibb');
 
-// GET The Chosen IAK list  
-app.get('/thechosenlist/iak', verifyToken, (req, res) => {
+// GET The Chosen IBB list  
+app.get('/thechosenlist/IBB', verifyToken, (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIAK.find({}, 'TheChosenList')
+    TheChosenListIBB.find({}, 'TheChosenList')
         .skip(page)
         .limit(limit)
-        .exec((err, TheChosenListIAK) => {
+        .exec((err, TheChosenListIBB) => {
             if (err) {
                 return res.status(400).json({
                     ok: false,
@@ -28,7 +28,7 @@ app.get('/thechosenlist/iak', verifyToken, (req, res) => {
             }
             res.json({
                 ok: true,
-                TheChosenListIAK
+                TheChosenListIBB
             });
         });
 });
