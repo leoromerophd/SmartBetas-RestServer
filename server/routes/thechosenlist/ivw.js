@@ -6,7 +6,7 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const TheChosenListIVW = require('../../models/thechosenlist/ivw');
+const TheChosenList = require('../../models/thechosenlist/ivw');
 
 // GET The Chosen IVW list  
 app.get('/thechosenlist/ivw', (req, res) => {
@@ -16,10 +16,10 @@ app.get('/thechosenlist/ivw', (req, res) => {
     let limit = req.query.limit || 4;
     limit = Number(limit);
 
-    TheChosenListIVW.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
+    TheChosenList.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
         .skip(page)
         .limit(limit)
-        .exec((err, TheChosenListIVW) => {
+        .exec((err, TheChosenList) => {
             if (err) {
                 return res.status(400).json({
                     ok: false,
@@ -28,7 +28,7 @@ app.get('/thechosenlist/ivw', (req, res) => {
             }
             res.json({
                 ok: true,
-                TheChosenListIVW
+                TheChosenList
             });
         });
 });
