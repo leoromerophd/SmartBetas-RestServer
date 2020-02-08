@@ -13,7 +13,7 @@ app.get('/thechosenlist/IGV', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
-    let limit = req.query.limit || 4;
+    let limit = req.query.limit || 100;
     limit = Number(limit);
 
     TheChosenList.find({}, 'symbol HpFcast Scatters Frec20 Frec50 Frec200')
