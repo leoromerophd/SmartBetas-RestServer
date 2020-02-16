@@ -25,5 +25,6 @@ app.use(require('./allcomplist/soxx'));
 app.use(require('./allcomplist/igv'));
 app.use(require('./allcomplist/ita'));
 app.use(require('./allcomplist/ivw'));
+app.use(require('./allcomplist/iye'));
 
 module.exports = app;
