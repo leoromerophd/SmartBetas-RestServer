@@ -9,7 +9,7 @@ const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
 const AllCompList = require('../../models/allcomplist/soxx');
 
 // GET The Chosen SOXX list  
-app.get('/allcomplist/soxx', (req, res) => {
+app.get('/allcomplist/:etf', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
