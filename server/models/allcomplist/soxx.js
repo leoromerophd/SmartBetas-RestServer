@@ -48,5 +48,5 @@ let allcompsSOXXSchema = new Schema(
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let AllCompList = mongoose.model('soxxallcomps', allcompsSOXXSchema);
+let AllCompList = mongoose.model('soxxallcomp', allcompsSOXXSchema);
 module.exports = AllCompList;
