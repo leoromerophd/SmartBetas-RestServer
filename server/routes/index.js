@@ -23,5 +23,6 @@ app.use(require('./thechosenlist/mutm'));
 
 app.use(require('./allcomplist/soxx'));
 app.use(require('./allcomplist/igv'));
+app.use(require('./allcomplist/ita'));
 
 module.exports = app;
