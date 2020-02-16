@@ -8,7 +8,7 @@ const { verifyToken, verifyAdmin_Role } = require('../middlewares/auth')
     // # Import Schema Models #######################
 const ETFinfo = require('../models/etfinfo.model');
 const TodaysEarnings = require('../models/todaysearnings.model');
-const TheChosenListIAK = require('../models/thechosenlist/ibb');
+
 
 // GET to Get ETF info data 
 app.get('/etfinfo', function(req, res) {
@@ -54,31 +54,6 @@ app.get('/earningstoday', function(req, res) {
             res.json({
                 ok: true,
                 TodaysEarnings
-            });
-        });
-});
-
-
-// GET The Chosen All Data 
-app.get('/thechosen', verifyToken, function(req, res) {
-    let page = req.query.page || 0;
-    page = Number(page);
-    let limit = req.query.limit || 4
-    limit = Number(limit);
-
-    Thechosen.find({}, 'stocks')
-        .skip(page)
-        .limit(limit)
-        .exec((err, Thechosen) => {
-            if (err) {
-                return res.status(400).json({
-                    ok: false,
-                    err
-                });
-            }
-            res.json({
-                ok: true,
-                Thechosen
             });
         });
 });
