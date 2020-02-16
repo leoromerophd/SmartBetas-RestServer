@@ -6,10 +6,10 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const AllCompList = require('../../models/allcomplist/soxx');
+const AllCompList = require('../../models/allcomplist/igv');
 
-// GET The Chosen SOXX list  
-app.get('/allcomplist/soxx', (req, res) => {
+// GET The Chosen IGV list  
+app.get('/allcomplist/igv', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
