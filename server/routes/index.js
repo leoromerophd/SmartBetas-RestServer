@@ -28,5 +28,6 @@ app.use(require('./allcomplist/ivw'));
 app.use(require('./allcomplist/iye'));
 app.use(require('./allcomplist/iyf'));
 app.use(require('./allcomplist/iyw'));
+app.use(require('./allcomplist/iyh'));
 
 module.exports = app;
