@@ -27,5 +27,6 @@ app.use(require('./allcomplist/ita'));
 app.use(require('./allcomplist/ivw'));
 app.use(require('./allcomplist/iye'));
 app.use(require('./allcomplist/iyf'));
+app.use(require('./allcomplist/iyw'));
 
 module.exports = app;
