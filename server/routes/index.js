@@ -21,7 +21,7 @@ app.use(require('./thechosenlist/iyj'));
 app.use(require('./thechosenlist/soxx'));
 app.use(require('./thechosenlist/mutm'));
 
-app.use(require('./allcomplist/soxx'));
+app.use(require('./allcomplist/ibb'));
 app.use(require('./allcomplist/igv'));
 app.use(require('./allcomplist/ita'));
 app.use(require('./allcomplist/ivw'));
@@ -31,5 +31,7 @@ app.use(require('./allcomplist/iyw'));
 app.use(require('./allcomplist/iyh'));
 app.use(require('./allcomplist/iyt'));
 app.use(require('./allcomplist/iyj'));
+app.use(require('./allcomplist/iyj'));
+app.use(require('./allcomplist/soxx'));
 
 module.exports = app;
