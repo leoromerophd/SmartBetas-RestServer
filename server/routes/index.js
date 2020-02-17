@@ -33,5 +33,6 @@ app.use(require('./allcomplist/iyt'));
 app.use(require('./allcomplist/iyj'));
 app.use(require('./allcomplist/iyj'));
 app.use(require('./allcomplist/soxx'));
+app.use(require('./allcomplist/mutm'));
 
 module.exports = app;
