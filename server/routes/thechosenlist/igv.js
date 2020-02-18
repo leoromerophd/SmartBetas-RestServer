@@ -16,7 +16,7 @@ app.get('/thechosenlist/IGV', (req, res) => {
     let limit = req.query.limit || 100;
     limit = Number(limit);
 
-    TheChosenList.find({}, 'symbol logo url nextEarnings CompanyInfo symbol companyName exchange industry website description CEO securityName issueType sector primarySicCode employees tags address address2 state city zip country phone PriceTarget symbol updatedDate priceTargetAverage priceTargetHigh priceTargetLow numberOfAnalysts SocialSentiment TheChosen HpFcast Scatters Frec20 Frec50 Frec200 ')
+    TheChosenList.find({}, 'symbol logo url nextEarnings CompanyInfo symbol companyName exchange industry website description CEO securityName issueType sector primarySicCode employees tags address address2 state city zip country phone PriceTarget symbol updatedDate priceTargetAverage priceTargetHigh priceTargetLow numberOfAnalysts SocialSentiment TheChosen HpFcast Scatters Frec20 Frec50 Frec200 AdjustedRsquared BetaofBenchmark SEofRegression')
         .skip(page)
         .limit(limit)
         .exec((err, TheChosenList) => {

@@ -46,6 +46,9 @@ let thechosenlistIGVSchema = new Schema(
             positive: Number,
             negative: Number
         },
+        AdjustedRsquared: String,
+        BetaofBenchmark: String,
+        SEofRegression: String,
         TheChosen: String,
         HpFcast: String,
         Scatters: String,
