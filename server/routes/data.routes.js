@@ -14,7 +14,7 @@ const TodaysEarnings = require('../models/todaysearnings.model');
 app.get('/etfinfo', function(req, res) {
     let page = req.query.page || 0;
     page = Number(page);
-    let limit = req.query.limit || 4
+    let limit = req.query.limit || 12
     limit = Number(limit);
 
     ETFinfo.find({}, 'symbol name SmartBetaList TradedSince SharesOutstanding Description FirstComponentName FirstComponentWeight FirstComponentSymbol SecondComponentName SecondComponentWeight SecondComponentSymbol ThirdComponentName ThirdComponentWeight ThirdComponentSymbol FourthComponentName FourthComponentWeight FourthComponentSymbol FifthComponentName FifthComponentWeight FifthComponentSymbol')
