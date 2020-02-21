@@ -9,7 +9,7 @@ const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
 const TheChosenList = require('../../models/thechosenlist/mutm');
 
 // GET The Chosen MUTM list  
-app.get('/thechosenlist/mutm', (req, res) => {
+app.get('/thechosenlist/mtum', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
