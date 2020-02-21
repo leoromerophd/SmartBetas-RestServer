@@ -4,13 +4,12 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 // Definir el Formato de la colección ~ Modelo
 
-let thechosenlistMUTMSchema = new Schema(
+let allcompsMTUMSchema = new Schema(
     [{
         symbol: String,
         logo: {
             url: String
         },
-        nextEarnings: String,
         CompanyInfo: {
             symbol: String,
             companyName: String,
@@ -32,22 +31,11 @@ let thechosenlistMUTMSchema = new Schema(
             country: String,
             phone: String
         },
-        PriceTarget: {
-            symbol: String,
-            updatedDate: String,
-            priceTargetAverage: String,
-            priceTargetHigh: String,
-            priceTargetLow: String,
-            numberOfAnalysts: String,
-        },
-        SocialSentiment: {
-            sentiment: Number,
-            totalScores: Number,
-            positive: Number,
-            negative: Number
-        },
         AdjustedRsquared: String,
         BetaofBenchmark: String,
+        SEofBenchmark: String,
+        tRatio: String,
+        Pvalue: String,
         SEofRegression: String,
         TheChosen: String,
         HpFcast: String,
@@ -60,5 +48,5 @@ let thechosenlistMUTMSchema = new Schema(
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let TheChosenList = mongoose.model('mutmthechosen', thechosenlistMUTMSchema);
-module.exports = TheChosenList;
+let AllCompList = mongoose.model('mtumallcomp', allcompsMTUMSchema);
+module.exports = AllCompList;
