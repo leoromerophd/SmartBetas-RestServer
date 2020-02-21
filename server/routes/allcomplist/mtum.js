@@ -6,7 +6,7 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const AllCompList = require('../../models/allcomplist/mutm');
+const AllCompList = require('../../models/allcomplist/mtum');
 
 // GET The Chosen mutm list  
 app.get('/allcomplist/mtum', (req, res) => {

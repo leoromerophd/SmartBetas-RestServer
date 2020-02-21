@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 // Definir el Formato de la colección ~ Modelo
 
-let allcompsMUTMSchema = new Schema(
+let allcompsMTUMSchema = new Schema(
     [{
         symbol: String,
         logo: {
@@ -48,5 +48,5 @@ let allcompsMUTMSchema = new Schema(
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let AllCompList = mongoose.model('mutmallcomp', allcompsMUTMSchema);
+let AllCompList = mongoose.model('mtumallcomp', allcompsMTUMSchema);
 module.exports = AllCompList;

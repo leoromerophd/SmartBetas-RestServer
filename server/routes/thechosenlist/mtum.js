@@ -6,7 +6,7 @@ const app = express();
 // ####### Import  Middlewares 
 const { verifyToken, verifyAdmin_Role } = require('../../middlewares/auth')
     // # Import Schema Models #######################
-const TheChosenList = require('../../models/thechosenlist/mutm');
+const TheChosenList = require('../../models/thechosenlist/mtum');
 
 // GET The Chosen MUTM list  
 app.get('/thechosenlist/mtum', (req, res) => {
