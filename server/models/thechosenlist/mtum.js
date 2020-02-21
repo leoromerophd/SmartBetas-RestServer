@@ -60,5 +60,5 @@ let thechosenlistMTUMSchema = new Schema(
 
 //  crear el modelo para llegar a la colección 
 // el valor entre '' define la conección en plural 'etfinfos'
-let TheChosenList = mongoose.model('mtumthechosen', thechosenlistMTUMSchema);
+let TheChosenList = mongoose.model('mtumthechosens', thechosenlistMTUMSchema);
 module.exports = TheChosenList;

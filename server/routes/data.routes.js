@@ -38,7 +38,7 @@ app.get('/etfinfo', function(req, res) {
 app.get('/earningstoday', function(req, res) {
     let page = req.query.page || 0;
     page = Number(page);
-    let limit = req.query.limit || 4
+    let limit = req.query.limit || 10
     limit = Number(limit);
 
     TodaysEarnings.find({}, 'symbol logo earnings')

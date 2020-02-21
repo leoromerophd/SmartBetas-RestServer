@@ -13,7 +13,7 @@ app.get('/thechosenlist/mtum', (req, res) => {
 
     let page = req.query.page || 0;
     page = Number(page);
-    let limit = req.query.limit || 100;
+    let limit = req.query.limit || 200;
     limit = Number(limit);
 
     TheChosenList.find({}, 'symbol logo url nextEarnings CompanyInfo symbol companyName exchange industry website description CEO securityName issueType sector primarySicCode employees tags address address2 state city zip country phone PriceTarget symbol updatedDate priceTargetAverage priceTargetHigh priceTargetLow numberOfAnalysts SocialSentiment TheChosen HpFcast Scatters Frec20 Frec50 Frec200 AdjustedRsquared BetaofBenchmark SEofRegression')
