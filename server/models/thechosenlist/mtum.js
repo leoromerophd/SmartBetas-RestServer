@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 let Schema = mongoose.Schema;
 // Definir el Formato de la colección ~ Modelo
 
-let thechosenlistMUTMSchema = new Schema(
+let thechosenlistMTUMSchema = new Schema(
     [{
         symbol: String,
         logo: {
