@@ -8,5 +8,5 @@ git commit -am "update"
 git push origin master
 heroku login -i
 git push heroku master
-heroku logs
+
 
