@@ -12,3 +12,7 @@ git push heroku master
 
 # Tiker of related Problem 
 # https://help.heroku.com/sharing/e07183a3-0bed-4747-9fb9-30d6df7ec57b
+
+
+# heroku plugins:install heroku-repo
+# heroku repo:reset -a smart-beta
