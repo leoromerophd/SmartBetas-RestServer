@@ -18,3 +18,5 @@ git push heroku master
 
 # heroku plugins:install heroku-repo
 # heroku repo:reset -a smart-beta
+
+# heroku git:remote -a smart-betas
