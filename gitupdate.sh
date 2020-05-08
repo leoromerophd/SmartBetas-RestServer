@@ -7,8 +7,8 @@ git add .
 git commit -am "update"
 git push origin master
 heroku login -i
-heroku plugins:install heroku-repo
-heroku repo:reset -a smart-beta
+#heroku plugins:install heroku-repo
+#heroku repo:reset -a smart-beta
 git push heroku master
 
 
