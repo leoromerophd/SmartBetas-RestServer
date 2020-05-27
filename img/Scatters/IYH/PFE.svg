@@ -229,7 +229,7 @@
 <g fill="none" color="black" stroke="black" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="gray" stroke="currentColor" stroke-width="0.50" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M308.1,742.4 L308.1,54.1  '/></g>
+	<path stroke='gray' stroke-dasharray='2,4' class="gridline"  d='M308.1,742.4 L308.1,117.1 M308.1,63.1 L308.1,54.1  '/></g>
 <g fill="none" color="gray" stroke="gray" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
@@ -338,16 +338,11 @@
 </g>
 	<g id="gnuplot_plot_1" ><title>PFE</title>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(246.2,76.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+	<g transform="translate(254.5,76.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="arial" >PFE</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<use xlink:href='#gpPt0' transform='translate(473.5,434.3) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(474.7,396.1) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(470.5,407.9) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(483.0,386.4) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(454.8,400.4) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(455.1,399.3) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(477.6,342.6) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(510.3,391.9) scale(4.50)' color='rgb(255,   0,   0)'/>
@@ -1097,44 +1092,48 @@
 	<use xlink:href='#gpPt0' transform='translate(494.1,412.8) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(509.5,370.0) scale(4.50)' color='rgb(255,   0,   0)'/>
 	<use xlink:href='#gpPt0' transform='translate(408.5,433.5) scale(4.50)' color='rgb(255,   0,   0)'/>
-	<use xlink:href='#gpPt0' transform='translate(275.6,72.1) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(472.2,402.8) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(431.6,432.1) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(472.6,376.1) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(488.2,376.7) scale(4.50)' color='rgb(255,   0,   0)'/>
+	<use xlink:href='#gpPt0' transform='translate(283.9,72.1) scale(4.50)' color='rgb(255,   0,   0)'/>
 </g>
 	</g>
 	<g id="gnuplot_plot_2" ><title>Last Price </title>
 <g fill="none" color="#FFFFFF" stroke="rgb(255,   0,   0)" stroke-width="8.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="8.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(246.2,94.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+	<g transform="translate(254.5,94.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
 		<text><tspan font-family="arial" >Last Price </tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="8.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0,   0, 255)'  d='M254.5,90.1 L296.7,90.1 M509.5,370.0  '/>	<use xlink:href='#gpPt1' transform='translate(509.5,370.0) scale(4.50)' color='rgb(  0,   0, 255)'/>
-	<use xlink:href='#gpPt1' transform='translate(275.6,90.1) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<path stroke='rgb(  0,   0, 255)'  d='M262.8,90.1 L305.0,90.1 M472.6,376.1  '/>	<use xlink:href='#gpPt1' transform='translate(472.6,376.1) scale(4.50)' color='rgb(  0,   0, 255)'/>
+	<use xlink:href='#gpPt1' transform='translate(283.9,90.1) scale(4.50)' color='rgb(  0,   0, 255)'/>
 </g>
 	</g>
-	<g id="gnuplot_plot_3" ><title>Y = -0.00320 + 0.862X</title>
+	<g id="gnuplot_plot_3" ><title>Y = -0.000887 + 0.862X</title>
 <g fill="none" color="#FFFFFF" stroke="rgb(  0,   0, 255)" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<g transform="translate(246.2,112.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
-		<text><tspan font-family="arial" >Y = -0.00320 + 0.862X</tspan></text>
+	<g transform="translate(254.5,112.0)" stroke="none" fill="black" font-family="arial" font-size="12.00"  text-anchor="end">
+		<text><tspan font-family="arial" >Y = -0.000887 + 0.862X</tspan></text>
 	</g>
 </g>
 <g fill="none" color="black" stroke="currentColor" stroke-width="1.00" stroke-linecap="butt" stroke-linejoin="miter">
-	<path stroke='rgb(  0, 204,   0)'  d='M254.5,108.1 L296.7,108.1 M63.6,703.8 L70.8,698.3 L78.0,692.8 L85.2,687.3 L92.3,681.8 L99.5,676.3
-		L106.7,670.8 L113.9,665.3 L121.1,659.8 L128.3,654.3 L135.5,648.9 L142.6,643.4 L149.8,637.9 L157.0,632.4
-		L164.2,626.9 L171.4,621.4 L178.6,615.9 L185.8,610.4 L192.9,604.9 L200.1,599.5 L207.3,594.0 L214.5,588.5
-		L221.7,583.0 L228.9,577.5 L236.1,572.0 L243.2,566.5 L250.4,561.0 L257.6,555.5 L264.8,550.1 L272.0,544.6
+	<path stroke='rgb(  0, 204,   0)'  d='M262.8,108.1 L305.0,108.1 M63.6,703.9 L70.8,698.4 L78.0,692.9 L85.2,687.4 L92.3,681.9 L99.5,676.4
+		L106.7,670.9 L113.9,665.4 L121.1,659.9 L128.3,654.4 L135.5,648.9 L142.6,643.5 L149.8,638.0 L157.0,632.5
+		L164.2,627.0 L171.4,621.5 L178.6,616.0 L185.8,610.5 L192.9,605.0 L200.1,599.5 L207.3,594.0 L214.5,588.5
+		L221.7,583.0 L228.9,577.5 L236.1,572.0 L243.2,566.6 L250.4,561.1 L257.6,555.6 L264.8,550.1 L272.0,544.6
 		L279.2,539.1 L286.4,533.6 L293.5,528.1 L300.7,522.6 L307.9,517.1 L315.1,511.6 L322.3,506.1 L329.5,500.6
-		L336.7,495.2 L343.8,489.7 L351.0,484.2 L358.2,478.7 L365.4,473.2 L372.6,467.7 L379.8,462.2 L387.0,456.7
-		L394.1,451.2 L401.3,445.8 L408.5,440.3 L415.7,434.8 L422.9,429.3 L430.1,423.8 L437.3,418.3 L444.5,412.8
-		L451.6,407.3 L458.8,401.8 L466.0,396.3 L473.2,390.9 L480.4,385.4 L487.6,379.9 L494.8,374.4 L501.9,368.9
-		L509.1,363.4 L516.3,357.9 L523.5,352.4 L530.7,346.9 L537.9,341.5 L545.1,336.0 L552.2,330.5 L559.4,325.0
-		L566.6,319.5 L573.8,314.0 L581.0,308.5 L588.2,303.0 L595.4,297.5 L602.5,292.1 L609.7,286.6 L616.9,281.1
-		L624.1,275.6 L631.3,270.1 L638.5,264.6 L645.7,259.1 L652.8,253.6 L660.0,248.1 L667.2,242.6 L674.4,237.2
-		L681.6,231.7 L688.8,226.2 L696.0,220.7 L703.1,215.2 L710.3,209.7 L717.5,204.2 L724.7,198.7 L731.9,193.2
-		L739.1,187.8 L746.3,182.3 L753.4,176.8 L760.6,171.3 L767.8,165.8 L775.0,160.3  '/></g>
+		L336.7,495.1 L343.8,489.7 L351.0,484.2 L358.2,478.7 L365.4,473.2 L372.6,467.7 L379.8,462.2 L387.0,456.7
+		L394.1,451.2 L401.3,445.7 L408.5,440.2 L415.7,434.7 L422.9,429.2 L430.1,423.7 L437.3,418.2 L444.5,412.7
+		L451.6,407.3 L458.8,401.8 L466.0,396.3 L473.2,390.8 L480.4,385.3 L487.6,379.8 L494.8,374.3 L501.9,368.8
+		L509.1,363.3 L516.3,357.8 L523.5,352.3 L530.7,346.8 L537.9,341.3 L545.1,335.8 L552.2,330.4 L559.4,324.9
+		L566.6,319.4 L573.8,313.9 L581.0,308.4 L588.2,302.9 L595.4,297.4 L602.5,291.9 L609.7,286.4 L616.9,280.9
+		L624.1,275.4 L631.3,269.9 L638.5,264.4 L645.7,258.9 L652.8,253.4 L660.0,248.0 L667.2,242.5 L674.4,237.0
+		L681.6,231.5 L688.8,226.0 L696.0,220.5 L703.1,215.0 L710.3,209.5 L717.5,204.0 L724.7,198.5 L731.9,193.0
+		L739.1,187.5 L746.3,182.0 L753.4,176.5 L760.6,171.1 L767.8,165.6 L775.0,160.1  '/></g>
 	</g>
 <g fill="none" color="#FFFFFF" stroke="rgb(  0, 204,   0)" stroke-width="2.00" stroke-linecap="butt" stroke-linejoin="miter">
 </g>
